@@ -1,18 +1,23 @@
 import React from 'react';
-import ToggleGif from '../../assets/interpolate.gif';
+import metricsGif from '../../assets/interpolate.gif';
 
-export default function TimeTravelSection() {
+const hText: string = 'Performance Metrics';
+
+const pText: string = 'Recoilize monitors component render times of your application and displays this data in useful ways.\n\nThe Flamegraph describes render times of each component plus its children at every level of the component tree.\n\nThe Ranked Graph describes render times for each individual component.';
+
+
+
+export default function MetricsSection() {
     return (
-        <div id="toggle-div" className="scroll-fade">
-            {/* fix the formatting of this */}
-            <h2 className="section-title-right">#ToggleMultipleGraphs</h2>
-            <div id="toggle-container">
+        <div className="feature-card">
+            <div className="feature-gif-left">
                 <div>
-                    <img src={ ToggleGif } alt="GIF demonstrating time travel dubugging"/>
+                    <img src={ metricsGif } alt="GIF displaying graphs of render metrics"/>
                 </div>
-                <div>
-                    <h2>Toggle multiple graphs depending on your taste</h2>
-                </div>
+            </div>
+            <div className="feature-right-text">
+                <h2 className="feature-heading">{hText}</h2>
+                <p className="feature-paragraph">{pText}</p>
             </div>
         </div>
     )
