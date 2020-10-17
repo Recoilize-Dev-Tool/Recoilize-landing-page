@@ -14,6 +14,7 @@ function App() {
       <Features />
       <PlaygroundSection />
       <Team />
+      <br/>
       <Footer />
     </div>
   );
