@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    height: 100%;
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div ul li {
+    cursor: pointer;
+    text-align: center;
+    margin: 15px 25px 0 0px;
+    font-size: 20px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#linkedin-logo, #github-logo {
+    border-radius: 100px;
+    margin: 0px;
+    height: 35px;
+}
+
+#github-logo {
+    background-color: white;
+}
+
+#linkedin-logo {
+    background-color: #2867B2;
+    fill:  #2867B2;
+}
+
+#landing {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 0 0 25px;
+    margin: 50px 0 250px 0;
+    position: relative;
+}
+
+#landing h1 {
+    font-weight: 100;
+    font-size: 12em;
+    margin: 55px 0 15px 15px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#landing h2 {
+    font-weight: 100;
+    margin: 50px 0 25px 20px;
+    font-size: 1.5em;
+}
+
+#landing img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    z-index: -1;
+    opacity: 50%;
+}
+/* fading in animation */
+.fade-in {
+    animation: fadeIn 3.5s;
+}
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-later {
+    animation: fadeInLater 9s;
+}
+
+@keyframes fadeInLater {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* scroll transition */
+
+/* [data-scroll] {
+    transition: all 2s;
+}
+[data-scroll='in'] {
+    opacity: 1;
+    transform: translateX(0)
+}
+[data-scroll='out'] {
+    opacity: 0;
+    transform: translateX(-200);
+} */
+
+
+
+.section-title-left {
+    /* add styling for h2 on top of all sections */
+    font-weight: 100;
+    font-size: 2em;
+    font-style: italic;
+    padding-left: 130px;
+}
+
+.section-title-right {
+    /* add styling for h2 on top of all sections */
+    font-weight: 100;
+    font-size: 2em;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+
+}
+
+.section-subtitle {
+    padding-left: 130px;
+    font-style: italic;
+    font-weight: 100;
+}
+/* Time travel gif section */
+
+#timetravel-container h2 {
+    font-weight: 100;
+}
+
+#timetravel-container {
+    margin-top: 0px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    width: 100%;
+}
+
+#timetravel-container div {
+    margin: 0px auto;
+    padding: 50px;
+}
+
+#timetravel-container img {
+    width: 800px;
+}
+
+/* Toggle Section */
+
+#toggle-container {
+    margin-top: 0px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: right;
+    align-items: center;
+    width: 100%;
+}
+
+#toggle-div {
+    margin-bottom: 350px;
+}
+
+#toggle-container img {
+    width: 800px;
+}
+
+#toggle-container h2 {
+    font-weight: 100;
+}
+/* Playground section */
+
+#playground-section {
+    margin: 50px auto;
+    padding: 0 140px 0 140px;
+}
+
+#playground-section h2 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#time-travel-div {
+    margin-bottom: 250px;
+}
+/* tv show list */
+
+.tvshow-list {
+    width: 250px;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.tvshow-list .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.tvshow-list .item:hover .name{
+    color: orange;
+}
+
+.tvshow-list .item .name {
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.tvshow-list .item .score {
+    background-color: greenyellow;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.tvshow-details .details {
+    padding-right: 10px;
+}
+
+/* comments */
+
+.comments {
+    padding: 9px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+/* container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
