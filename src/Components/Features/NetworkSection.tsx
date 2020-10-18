@@ -10,12 +10,10 @@ const pText: string = 'Atoms and selectors are visualized by Recoilize to show r
 export default function NetworkSection() {
     return (
         <div className="feature-card">
-            <div className="feature-gif-left">
-                <div>
-                    <img src={ networkGif } alt="GIF displaying graphs of render metrics"/>
-                </div>
+            <div className="feature-gif">
+                <img src={ networkGif } alt="GIF displaying graphs of render metrics"/>
             </div>
-            <div className="feature-right-text">
+            <div className="feature-text-right">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>

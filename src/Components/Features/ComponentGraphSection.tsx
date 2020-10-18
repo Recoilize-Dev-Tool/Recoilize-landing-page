@@ -1,5 +1,5 @@
 import React from 'react'
-import componentGraphGif from '../assets/demo1.gif';
+import componentGraphGif from '../../assets/demo1.gif';
 
 const hText: string = 'Component Graph';
 
@@ -8,14 +8,12 @@ const pText: string = 'Recoilize provides a visualization of the the component t
 export default function ComponentGraphSection() {
     return (
         <div className="feature-card">
-            <div className="feature-left-text">
+            <div className="feature-text-left">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>
-            <div className="feature-gif-right">
-                <div>
-                    <img src={ componentGraphGif } alt="GIF displaying component tree visualization"/>
-                </div>
+            <div className="feature-gif">
+                <img src={ componentGraphGif } alt="GIF displaying component tree visualization"/>
             </div>
         </div>
     )
