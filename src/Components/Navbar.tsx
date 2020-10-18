@@ -1,4 +1,4 @@
-import '../index.css';
+import '../index.scss';
 import React from 'react';
 import Github from '../assets/github-logo.svg';
 import Linkedin from '../assets/linkedin-logo.svg';
