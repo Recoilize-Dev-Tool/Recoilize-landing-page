@@ -1,3 +1,12 @@
+@import './styles/NavBar.scss';
+@import './styles/LandingPage.scss';
+@import './styles/ProductDownload.scss';
+@import './styles/Features.scss';
+@import './styles/Playground.scss';
+@import './styles/Team.scss';
+@import './styles/Footer.scss';
+
+
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +19,11 @@ body {
     color: white;
     font-family: 'Playfair Display', serif;
     height: 100%;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
 }
 
 div ul {
