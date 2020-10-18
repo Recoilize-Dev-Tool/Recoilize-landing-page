@@ -7,12 +7,11 @@ import {playStart} from './Store/Atoms';
 export default function PlaygroundSection() {
 
 const play = useRecoilValue(playStart)
-
  
 return (
-    <div>
+    <div className="main-section" id="playground-section">
         <h1>Give it a try!</h1>
-        <div className="playground-container">
+        <div id="playground-container">
         { play ? <Playground /> : <PlaygroundStart />}
         </div>
     </div>
