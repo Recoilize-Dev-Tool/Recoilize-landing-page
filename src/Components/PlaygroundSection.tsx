@@ -1,14 +1,20 @@
 import React from 'react';
+import {useRecoilValue} from 'recoil';
 import Playground from './Playground/Playground';
+import PlaygroundStart from './Playground/PlaygroundStart';
+import {playStart} from './Store/Atoms';
 
 export default function PlaygroundSection() {
-    return (
-        <div>
-            <h2 id="hash-ancor" className='section-title-left'>#Playground</h2>
-            <h3 className='section-subtitle'>This is where you can try out our dev tool</h3>
-            <div id='playground-section'>
-                <Playground />
-            </div>
+
+const play = useRecoilValue(playStart)
+
+ 
+return (
+    <div>
+        <h1>Give it a try!</h1>
+        <div className="playground-container">
+        { play ? <Playground /> : <PlaygroundStart />}
         </div>
-    )
+    </div>
+)
 }
