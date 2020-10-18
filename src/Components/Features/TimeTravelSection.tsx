@@ -1,5 +1,5 @@
 import React from 'react';
-import TimeTravelGif from '../assets/demo1.gif';
+import TimeTravelGif from '../../assets/demo1.gif';
 
 const hText: string = 'Time Travel';
 
