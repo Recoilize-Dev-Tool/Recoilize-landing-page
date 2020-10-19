@@ -79,10 +79,12 @@ export default function Team() {
             <h2 className="section-title-right">Contributors</h2>
             <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
-                    console.log(pic.src)
-                    return <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor"/>
+                    return (
+                    <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor"/>
+                    )
                 })}
             </div>
         </div>
+
     )
 }
