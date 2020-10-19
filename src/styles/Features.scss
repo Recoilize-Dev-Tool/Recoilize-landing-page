@@ -2,10 +2,7 @@
 /*  Features Styling    */
 /************************/
 
-$dark: #121212;
-$midDark: #212121;
-$midLight: #E0E0E0;
-$lightLight: #F5F5F5;
+@import "./Constants";
 
 .features-container{
   width: 100%;
