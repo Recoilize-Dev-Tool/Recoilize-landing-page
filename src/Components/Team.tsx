@@ -1,79 +1,107 @@
 import React from 'react';
-import saejin from '../assets/saejin.png'
-import davide from '../assets/davide.png'
+import saejin from '../assets/saejin.png';
+import davide from '../assets/davide.png';
+import jones from '../assets/jones.png'
+import bren from '../assets/bren.png';
+import aaron from '../assets/aaron.png';
+import taven from '../assets/taven.png';
+import jesus from '../assets/jesus.png';
+import steven from '../assets/steven.png';
+import spenser from '../assets/spenser.png';
+import justin from '../assets/justin.png';
+import anthony from '../assets/anthony.png';
+import henry from '../assets/henry.png';
+import seungho from '../assets/seungho.png';
+import sean from '../assets/sean.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { link } from 'fs';
+import { faTruckPickup } from '@fortawesome/free-solid-svg-icons';
+
+
+const linkedinIcon = <a href=""><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a>
+const github = <a href=""><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a>
 
 export default function Team() {
     const pictures = [
-        // <img src={`${saejin}`} alt="no"/>,
-        // <img src={`${davide}`} alt="yes"/>
         { 
-            src : '../assets/saejin.png',
-            alt : 'saejin'
+            src : saejin,
+            alt : 'saejin',
         },
         {
-            src : '../assets/jones.png',
+            src : jones,
             alt : 'jones'
         },
         {
-            src : '../assets/bren.png',
+            src : bren,
             alt : 'bren'
         },
         {
-            src : '../assets/sean.png',
+            src : sean,
             alt : 'sean'
         },
         {
-            src : '../assets/henry.png',
+            src : henry,
             alt : 'henry'
         },
         {
-            src : '../assets/steven.png',
+            src : steven,
             alt : 'steven'
         },
         {
-            src : '../assets/spenser.png',
+            src : spenser,
             alt : 'spenser'
         },
         {
-            src : '../assets/seungho.png',
+            src : seungho,
             alt : 'seungho'
         },
         {
-            src : '../assets/justin.png',
+            src : justin,
             alt : 'justin'
         },
         {
-            src : '../assets/anthony.png',
+            src : anthony,
             alt : 'anthony'
         },
         {
-            src : '../assets/aaron.png',
+            src : aaron,
             alt : 'aaron'
         },
         {
-            src : '../assets/jesus.png',
+            src : jesus,
             alt : 'jesus'
         },
         {
-            src : '../assets/taven.png',
+            src : taven,
             alt : 'taven'
         },
         {
-            src : '../assets/davide.png',
+            src : davide,
             alt : 'davide'
         }
     ];
 
-
     return (
         <div>
             <h2 className="section-title-right">Contributors</h2>
-            <div id="profile-pictures">
+            <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
-                    console.log(pic.src)
-                    return <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} />
+                    return (
+                        <div>
+                            <div>
+                                <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
+                            </div>
+                            <div className="flex-container">
+                                { linkedinIcon }
+                                { github }
+                            </div>
+                        </div>
+                    )
                 })}
             </div>
         </div>
+
     )
 }
