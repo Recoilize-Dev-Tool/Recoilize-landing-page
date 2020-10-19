@@ -1,35 +1,30 @@
 .nav {
   padding: 5px;
-  // background-color: black;
   background-color: #393b44;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-nav ul {
+.nav ul {
   list-style-type: none;
   margin: 5px 0 0 0;
   padding: 0;
 }
 
-nav a {
-  display: block;
-  width: 60px;
-}
-
-#nav-left {
-  float: left;
-  margin-left: 10px;
-}
-
 #nav-left ul li {
   float: left;
   padding: 5px;
+  margin-left: 5px;
 }
 #nav-left ul li a {
   color: white;
   text-decoration: none;
   margin-right: 0;
 }
-#nav-right ul li {
+#nav-right ul li{
   float: right;
+  padding-right: 15px;
+  padding-bottom: 5px;
 }
 
 #linkedin-logo, #github-logo {
