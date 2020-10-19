@@ -6,3 +6,7 @@ export const id = atom({
   default: 1,
 });
 
+export const playStart = atom({
+  key: 'playStart',
+  default: false,
+});

@@ -26,79 +26,19 @@ body {
     flex-direction: column;
 }
 
-div ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
+// .main-section {
+//     height: 100vh;
+// }
 
-div ul li {
-    cursor: pointer;
-    text-align: center;
-    margin: 15px 25px 0 0px;
-    font-size: 20px;
-}
+// button {
+//     width: 125px;
+// }
 
-div ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-#linkedin-logo, #github-logo {
-    border-radius: 100px;
-    margin: 0px;
-    height: 35px;
-}
-
-#github-logo {
-    background-color: white;
-}
-
-#linkedin-logo {
-    background-color: #2867B2;
-    fill:  #2867B2;
-}
-
-#landing {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    padding: 0 0 0 25px;
-    margin: 50px 0 250px 0;
-    position: relative;
-}
-
-#landing h1 {
-    font-weight: 100;
-    font-size: 12em;
-    margin: 55px 0 15px 15px;
-}
-
-#italic {
-    font-style: italic;
-}
-
-#landing h2 {
-    font-weight: 100;
-    margin: 50px 0 25px 20px;
-    font-size: 1.5em;
-}
-
-#landing img {
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    left: 1100px;
-    top: 40px;
-    z-index: -1;
-    opacity: 50%;
-}
 /* fading in animation */
 .fade-in {
     animation: fadeIn 3.5s;
 }
+
 @keyframes fadeIn {
     from { 
         opacity: 0;
