@@ -10,7 +10,7 @@ import Linkedin from '../assets/linkedin-logo.svg';
 export default function Navbar() {
   return (  
     <nav className='nav'>
-      <div className="fade-in" id='nav-left'>  
+      <div id='nav-left' className="fade-in" >  
         <ul>
           <li><a href="/src/index.tsx">Home</a></li>
           <li><a href="#profile-pictures">Team</a></li>
