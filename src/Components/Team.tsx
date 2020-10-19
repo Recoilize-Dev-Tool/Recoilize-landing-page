@@ -17,10 +17,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { link } from 'fs';
+import { faTruckPickup } from '@fortawesome/free-solid-svg-icons';
 
 
-const linkedin = <a href="" ><FontAwesomeIcon icon={faLinkedin} className="social-icons"/></a>
-const github = <FontAwesomeIcon icon={faGithubSquare} className="social-icons"/>
+const linkedinIcon = <a href=""><FontAwesomeIcon icon={faLinkedin} className="social-icons"/></a>
+const github = <a href=""><FontAwesomeIcon icon={faGithubSquare} className="social-icons"/></a>
 
 export default function Team() {
     const pictures = [
@@ -93,7 +94,7 @@ export default function Team() {
                                 <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
                             </div>
                             <div className="flex-container">
-                                { linkedin }
+                                { linkedinIcon }
                                 { github }
                             </div>
                         </div>
