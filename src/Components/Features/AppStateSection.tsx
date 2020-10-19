@@ -1,5 +1,5 @@
 import React from 'react'
-import appStateGif from '../../assets/demo1.gif';
+import appStateGif from '../../assets/stateGif.gif';
 
 const hText: string = 'Monitor Application State';
 

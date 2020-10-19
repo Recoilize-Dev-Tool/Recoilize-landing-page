@@ -1,5 +1,5 @@
 import React from 'react'
-import networkGif from '../../assets/interpolate.gif';
+import networkVid from '../../assets/networkGif.gif';
 
 const hText: string = 'Visualize Atoms and Selectors';
 
@@ -11,7 +11,7 @@ export default function NetworkSection() {
     return (
         <div className="feature-card">
             <div className="feature-gif">
-                <img src={ networkGif } alt="GIF displaying graphs of render metrics"/>
+                <img src={ networkVid } alt="GIF displaying graphs of render metrics"/>
             </div>
             <div className="feature-text-right">
                 <h2 className="feature-heading">{hText}</h2>

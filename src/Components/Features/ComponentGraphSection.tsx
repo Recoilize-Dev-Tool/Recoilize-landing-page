@@ -1,5 +1,5 @@
 import React from 'react'
-import componentGraphGif from '../../assets/demo1.gif';
+import componentGraphGif from '../../assets/componentGif.gif';
 
 const hText: string = 'Component Graph';
 

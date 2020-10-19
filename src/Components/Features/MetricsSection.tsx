@@ -1,5 +1,5 @@
 import React from 'react';
-import metricsGif from '../../assets/interpolate.gif';
+import metricsGif from '../../assets/metricsGif.gif';
 
 const hText: string = 'Performance Metrics';
 
