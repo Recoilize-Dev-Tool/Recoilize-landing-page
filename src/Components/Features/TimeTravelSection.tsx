@@ -1,17 +1,25 @@
 import React from 'react';
 import TimeTravelGif from '../../assets/demo1.gif';
+<<<<<<< HEAD
+=======
+
+const hText: string = 'Time Travel';
+
+const pText: string = 'The snapshots list provides state the state thoughout the applications runtime. Each time a state change occurs a new snapshot is added. These snapshots can be clicked to view information about application at that instance of state. Alternatively the jump button can be pressed to revert application state back a pervious instance.';
+
+
+>>>>>>> 7f9ba99876dddfc629639f43ebe91d5346ade171
 
 export default function TimeTravelSection() {
     return (
-        <div id="time-travel-div">
-            {/* fix the formatting of this */}
-            <h2 className="section-title-left">#TimeTravelDebugging</h2>
-            <div id="timetravel-container">
+        <div className="feature-card">
+            <div className="feature-left-text">
+                <h2 className="feature-heading">{hText}</h2>
+                <p className="feature-paragraph">{pText}</p>
+            </div>
+            <div className="feature-gif-right">
                 <div>
                     <img src={ TimeTravelGif } alt="GIF demonstrating time travel dubugging"/>
-                </div>
-                <div>
-                    <h2>Innovative debugging tool made specifically for Recoil</h2>
                 </div>
             </div>
         </div>

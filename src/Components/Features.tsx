@@ -7,10 +7,11 @@ import React from 'react';
 
 export default function Features() {
     return (
-        <div>
-            <MetricsSection />
+        <div className="features-container">
+            <TimeTravelSection />
             <NetworkSection />
             <ComponentGraphSection />
+            <MetricsSection />
             <AppStateSection />
         </div>
     )

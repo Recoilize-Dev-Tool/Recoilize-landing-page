@@ -1,79 +1,73 @@
 import React from 'react';
-import saejin from '../assets/saejin.jpeg';
-import jones from '../assets/jones.png';
-import bren from '../assets/bren.jpeg';
-import sean from '../assets/sean.png';
-import henry from '../assets/henry.jpeg';
-import steven from '../assets/steven.jpeg';
-import spenser from '../assets/spenser.jpeg';
-import seungho from '../assets/seungho.jpeg';
-import justin from '../assets/justin.jpeg';
-import anthony from '../assets/anthony.png';
-import aaron from '../assets/aaron.png';
-import taven from '../assets/taven.png';
-import jesus from '../assets/jesus.png';
-import davide from '../assets/davide.png';
+import saejin from '../assets/saejin.png'
+import davide from '../assets/davide.png'
 
 export default function Team() {
     const pictures = [
+        // <img src={`${saejin}`} alt="no"/>,
+        // <img src={`${davide}`} alt="yes"/>
         { 
-            src : saejin,
+            src : '../assets/saejin.png',
             alt : 'saejin'
         },
         {
-            src : jones,
+            src : '../assets/jones.png',
             alt : 'jones'
         },
         {
-            src : bren,
+            src : '../assets/bren.png',
             alt : 'bren'
         },
         {
-            src : sean,
+            src : '../assets/sean.png',
             alt : 'sean'
         },
         {
-            src : henry,
+            src : '../assets/henry.png',
             alt : 'henry'
         },
         {
-            src : steven,
+            src : '../assets/steven.png',
             alt : 'steven'
         },
         {
-            src : spenser,
+            src : '../assets/spenser.png',
             alt : 'spenser'
         },
         {
-            src : seungho,
+            src : '../assets/seungho.png',
             alt : 'seungho'
         },
         {
-            src : justin,
+            src : '../assets/justin.png',
             alt : 'justin'
         },
         {
-            src : anthony,
+            src : '../assets/anthony.png',
             alt : 'anthony'
         },
         {
-            src : aaron,
+            src : '../assets/aaron.png',
             alt : 'aaron'
         },
         {
-            src : jesus,
+            src : '../assets/jesus.png',
             alt : 'jesus'
         },
         {
-            src : taven,
+            src : '../assets/taven.png',
             alt : 'taven'
         },
         {
-            src : davide,
+            src : '../assets/davide.png',
             alt : 'davide'
         }
     ];
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7f9ba99876dddfc629639f43ebe91d5346ade171
     return (
         <div>
             <h2 className="section-title-right">Contributors</h2>
