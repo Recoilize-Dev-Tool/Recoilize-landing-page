@@ -1,0 +1,22 @@
+// styling for contributor pictures
+.contributor {
+    width: 50%;
+    margin: 50px auto 50px auto;
+}
+// div surrounding contributor pictures
+#contributor-pictures {
+
+}
+
+.grid-container {
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". . . ."
+        ". . . ."
+        ". . . ."
+        ". . . .";
+}

@@ -6,7 +6,8 @@ export default function Footer() {
             This project is licensed under the MIT License
             <br/>
             Recoilize is an open source project
-            <button id="github-star" /><button id="github-number" />
+            <br/>
+            <button id="github-star" >Star</button><button id="github-number">Me</button>
         </div>
     )
 }

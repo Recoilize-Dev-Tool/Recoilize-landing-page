@@ -77,10 +77,10 @@ export default function Team() {
     return (
         <div>
             <h2 className="section-title-right">Contributors</h2>
-            <div id="profile-pictures">
+            <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
                     console.log(pic.src)
-                    return <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} />
+                    return <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor"/>
                 })}
             </div>
         </div>
