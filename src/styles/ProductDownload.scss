@@ -2,7 +2,7 @@
   background-color:#f1f3f8;
 }
 .Product .inner {
-  height: 60vh;
+  height: 55vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -13,16 +13,17 @@
   text-align: center;
   color: #393b44;
   font-weight: 300;
+  font-size: 2.5em;
 }
 .Product .buttons {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   padding: 40px; 
 }
 .buttons .button{
-  padding: 15px 30px;
+  padding: 10px 30px;
   border-radius: 5px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;

@@ -1,5 +1,5 @@
 import React from 'react';
-import TimeTravelGif from '../../assets/demo1.gif';
+const timeTravelVid = require('../../assets/timeTravelVid.mp4');
 
 const hText: string = 'Time Travel';
 
@@ -15,7 +15,9 @@ export default function TimeTravelSection() {
                 <p className="feature-paragraph">{pText}</p>
             </div>
             <div className="feature-gif">
-                <img src={ TimeTravelGif } alt="GIF demonstrating time travel dubugging"/>
+                <video autoPlay loop muted controls={false}>
+                    <source src={timeTravelVid} type="video/mp4"/>
+                </video>
             </div>
         </div>
     )
