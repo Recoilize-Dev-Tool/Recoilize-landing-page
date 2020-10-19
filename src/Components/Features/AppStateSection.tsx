@@ -1,5 +1,5 @@
 import React from 'react'
-import appStateGif from '../../assets/demo1.gif';
+import appStateGif from '../../assets/stateGif.gif';
 
 const hText: string = 'Monitor Application State';
 
@@ -8,14 +8,12 @@ const pText: string = 'Two Recoilize features aid in the monitoring of state var
 export default function AppStateSection() {
     return (
         <div className="feature-card">
-            <div className="feature-left-text">
+            <div className="feature-text-left">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>
-            <div className="feature-gif-right">
-                <div>
-                    <img src={ appStateGif } alt="GIF showing display of state varaibles"/>
-                </div>
+            <div className="feature-gif">
+                <img src={ appStateGif } alt="GIF showing display of state varaibles"/>
             </div>
         </div>
     )

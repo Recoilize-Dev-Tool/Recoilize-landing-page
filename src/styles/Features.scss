@@ -1,0 +1,66 @@
+/************************/
+/*  Features Styling    */
+/************************/
+
+$dark: #121212;
+$midDark: #212121;
+$midLight: #E0E0E0;
+$lightLight: #F5F5F5;
+
+.features-container{
+  width: 100%;
+  background-color: $midDark;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.feature-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 5%;
+}
+
+.feature-text-left{
+  width: 30%;
+  max-width: 500px;
+  padding: 2em;
+  justify-self: right;
+}
+.feature-text-right{
+  width: 30%;
+  max-width: 500px;
+  padding: 2em;
+}
+
+.feature-heading{
+  // color: $dark;
+  color: $lightLight;
+  // max-width: 70%;
+  // margin-left: 10%
+}
+.feature-paragraph{
+  // color: $midDark;
+  color: $midLight;
+  // max-width: 70%;
+  // margin-left:10%;
+}
+
+.feature-gif{
+  width: 50%;
+  max-width: 500px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-gif img{
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #3b3b3b;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}

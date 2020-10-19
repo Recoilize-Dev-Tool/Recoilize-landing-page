@@ -26,6 +26,15 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+// .main-section {
+//     height: 100vh;
+// }
+
+// button {
+//     width: 125px;
+// }
+
 /* fading in animation */
 .fade-in {
     animation: fadeIn 3.5s;
@@ -67,34 +76,7 @@ body {
     transform: translateX(-200);
 } */
 
-/************************/
-/*  Features Styles     */
-/************************/
 
-.feature-container{
-    width: 100%;
-    background-color: #38444c;
-    display: flex;
-    flex-direction: column;
-}
-
-.feature-card{
-    display: flex;
-    flex-direction: row;
-}
-
-.feature-right-text{}
-.feature-left-text{}
-
-.feature-heading{
-    color: #ecedf2
-}
-.feature-paragraph{
-    color: #ecedf2
-}
-
-.feature-gif-left{}
-.feature-gif-right{}
 
 .section-title-left {
     /* add styling for h2 on top of all sections */
