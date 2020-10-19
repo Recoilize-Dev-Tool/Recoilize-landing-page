@@ -12,7 +12,7 @@ export default function GettingStarted() {
         </ul>
         <h1>Area for rotating snippets</h1>
       </div>
-      <p>For more information on getting started visit our GitHub</p>
+      <p>For more information on getting started visit our <a href="https://github.com/open-source-labs/Recoilize">GitHub</a></p>
     </div>
   )
 }
