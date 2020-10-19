@@ -1,5 +1,5 @@
 import React from 'react'
-import appStateGif from '../../assets/stateGif.gif';
+const appStateVid = require('../../assets/stateVid.mp4');
 
 const hText: string = 'Monitor Application State';
 
@@ -13,7 +13,9 @@ export default function AppStateSection() {
                 <p className="feature-paragraph">{pText}</p>
             </div>
             <div className="feature-gif">
-                <img src={ appStateGif } alt="GIF showing display of state varaibles"/>
+                <video autoPlay loop muted controls={false}>
+                    <source src={appStateVid} type="video/mp4"/>
+                </video>
             </div>
         </div>
     )

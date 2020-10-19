@@ -1,5 +1,5 @@
 import React from 'react';
-import metricsGif from '../../assets/metricsGif.gif';
+const metricsVid = require('../../assets/metricsVid.mp4');
 
 const hText: string = 'Performance Metrics';
 
@@ -11,7 +11,9 @@ export default function MetricsSection() {
     return (
         <div className="feature-card">
             <div className="feature-gif">
-                <img src={ metricsGif } alt="GIF displaying graphs of render metrics"/>
+                <video autoPlay loop muted controls={false}>
+                    <source src={metricsVid} type="video/mp4"/>
+                </video>
             </div>
             <div className="feature-text-right">
                 <h2 className="feature-heading">{hText}</h2>
@@ -20,3 +22,4 @@ export default function MetricsSection() {
         </div>
     )
 }
+
