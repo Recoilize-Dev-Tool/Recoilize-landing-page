@@ -1,8 +1,3 @@
-// div surrounding contributor pictures
-#contributor-pictures {
-    
-}
-
 .grid-container {
     display: grid;
     width: 100vw;
@@ -15,25 +10,28 @@
     ". . . ."
     ". . . .";
 }
-// styling for contributor pictures
+// styling for the individual contributor pictures
 .contributor {
     width: 50%;
     justify-self: center;
-    // margin: 50px auto 50px auto;
+}
+// styling for container holding contributor pictures
+.grid-flex {
+    display: flex;
+    justify-content: center;
 }
 
+// styling for container that holds socialmedia icons
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-self: center;
-    width: 150px;
-    margin: 15px auto 15px auto;
+    margin: 15px auto 25px auto;
 }
-
 .social-icons {
+    width: 100%;
     font-size: 50px;
-    margin: auto;
-    text-align: center;
+    margin: auto 15px auto 15px;
 }
 
 .linkedin {
@@ -43,6 +41,8 @@
 .github {
     color: white;
 }
+
+// hover effect for socialmedia icons
 .social-icons:hover {
     opacity: 0.85;
 }
