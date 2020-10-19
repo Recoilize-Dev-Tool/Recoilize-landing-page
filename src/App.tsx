@@ -4,6 +4,7 @@ import LandingPage from './Components/LandingPage';
 import ProductDownload from './Components/ProductDownload'
 import Footer from './Components/Footer';
 import Features from './Components/Features';
+import GettingStarted from './Components/GettingStarted';
 import Team from './Components/Team';
 import PlaygroundSection from './Components/PlaygroundSection';
 
@@ -14,6 +15,7 @@ function App() {
       <LandingPage />
       <ProductDownload />
       <Features />
+      <GettingStarted />
       <PlaygroundSection />
       <Team />
       <br/>
