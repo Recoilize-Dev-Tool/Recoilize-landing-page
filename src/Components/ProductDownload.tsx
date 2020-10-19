@@ -4,7 +4,7 @@ export default function ProductDownload() {
   return (
     <div className='Product'>
       <div className='inner'>
-        <h2  className="section-title-center" style={{ color:  "#8d93ab" }}>A Chrome extension that helps debug Recoil applications by memorizing the state of components with every render.</h2 >
+        <h2  className="section-title-center" style={{ color:  "#393b44" }}>A Chrome extension that helps debug Recoil applications by memorizing the state of components with every render.</h2 >
         <div className='buttons'>
            <a href='#getting-started' className='button'>Get Started</a>
            <a href='https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik?hl=en' target='_blank' className='button'>Download</a>
