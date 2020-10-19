@@ -1,5 +1,5 @@
 import React from 'react'
-import networkVid from '../../assets/networkGif.gif';
+const networkVid = require('../../assets/networkVid.mp4');
 
 const hText: string = 'Visualize Atoms and Selectors';
 
@@ -11,7 +11,9 @@ export default function NetworkSection() {
     return (
         <div className="feature-card">
             <div className="feature-gif">
-                <img src={ networkVid } alt="GIF displaying graphs of render metrics"/>
+                <video autoPlay loop muted controls={false}>
+                    <source src={networkVid} type="video/mp4"/>
+                </video>
             </div>
             <div className="feature-text-right">
                 <h2 className="feature-heading">{hText}</h2>
@@ -20,3 +22,6 @@ export default function NetworkSection() {
         </div>
     )
 }
+
+//<video autoplay loop muted controls = "false">
+//<source src="goats.mp4" type="video/mp4">

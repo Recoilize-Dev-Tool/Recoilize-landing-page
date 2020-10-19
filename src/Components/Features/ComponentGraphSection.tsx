@@ -1,5 +1,5 @@
 import React from 'react'
-import componentGraphGif from '../../assets/componentGif.gif';
+const componentVid = require('../../assets/componentVid.mp4');
 
 const hText: string = 'Component Graph';
 
@@ -13,7 +13,9 @@ export default function ComponentGraphSection() {
                 <p className="feature-paragraph">{pText}</p>
             </div>
             <div className="feature-gif">
-                <img src={ componentGraphGif } alt="GIF displaying component tree visualization"/>
+                <video autoPlay loop muted controls={false}>
+                    <source src={componentVid} type="video/mp4"/>
+                </video>
             </div>
         </div>
     )
