@@ -20,8 +20,8 @@ import { link } from 'fs';
 import { faTruckPickup } from '@fortawesome/free-solid-svg-icons';
 
 
-const linkedinIcon = <a href=""><FontAwesomeIcon icon={faLinkedin} className="social-icons"/></a>
-const github = <a href=""><FontAwesomeIcon icon={faGithubSquare} className="social-icons"/></a>
+const linkedinIcon = <a href=""><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a>
+const github = <a href=""><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a>
 
 export default function Team() {
     const pictures = [
