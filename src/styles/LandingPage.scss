@@ -1,0 +1,44 @@
+#Landing {
+  height: 95vh;
+  // background-color: black;
+  background: linear-gradient(135deg, #8d93ab 0%, #393b44 100%);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner {
+  height: 95vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner h1 {
+    font-weight: 100;
+    font-size: 8em;
+    padding: 0;
+    margin: 0;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#Landing p {
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: 0 0 100px 0;
+
+}
+
+#inner img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+}
