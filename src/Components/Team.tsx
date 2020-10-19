@@ -13,12 +13,20 @@ import anthony from '../assets/anthony.png';
 import henry from '../assets/henry.png';
 import seungho from '../assets/seungho.png';
 import sean from '../assets/sean.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
+import { link } from 'fs';
+
+
+const linkedin = <a href="" ><FontAwesomeIcon icon={faLinkedin} className="social-icons"/></a>
+const github = <FontAwesomeIcon icon={faGithubSquare} className="social-icons"/>
 
 export default function Team() {
     const pictures = [
         { 
             src : saejin,
-            alt : 'saejin'
+            alt : 'saejin',
         },
         {
             src : jones,
@@ -80,7 +88,15 @@ export default function Team() {
             <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
                     return (
-                    <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor"/>
+                        <div>
+                            <div>
+                                <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
+                            </div>
+                            <div className="flex-container">
+                                { linkedin }
+                                { github }
+                            </div>
+                        </div>
                     )
                 })}
             </div>
