@@ -1,0 +1,42 @@
+.Product {
+  background-color:#f1f3f8;
+}
+.Product .inner {
+  height: 60vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.Product .inner h1 {
+  width: 900px;
+  text-align: center;
+  color: #393b44;
+  font-weight: 300;
+}
+.Product .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  padding: 40px; 
+}
+.buttons .button{
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color:#FFFFFF;
+  background-color:#8d93ab;
+  text-align: center;
+}
+.button:hover {
+  color: rgb(69, 116, 179);
+}
+.Product .inner p {
+  width: 900px;
+  text-align: center;
+  color: #393b44;
+  font-size: 1.5em;
+}
