@@ -6,13 +6,13 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import LandingPage from './Components/LandingPage';
 import PlaygroundSection from './Components/PlaygroundSection';
-import TimeTravelSection from './Components/TimeTravelSection';
+import TimeTravelSection from './Components/Features/TimeTravelSection';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+// test('renders learn react link', () => {
+//   const { getByText } = render(<App />);
+//   const linkElement = getByText(/learn react/i);
+//   expect(linkElement).toBeInTheDocument();
+// });
 
 describe('app correctly renders components', () => {
   xit('should render navbar component', () => { 
