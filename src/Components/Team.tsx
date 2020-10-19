@@ -21,29 +21,29 @@ import { faTruckPickup } from '@fortawesome/free-solid-svg-icons';
 
 export default function Team() {
     const pictures = [
-        { 
-            src : saejin,
-            alt : 'saejin',
-            linkedin : 'https://github.com/skang1004',
-            github : 'https://www.linkedin.com/in/saejinkang1004/'
+        {
+            src : aaron,
+            alt : 'aaron',
+            linkedin : 'https://www.linkedin.com/in/aaron-yang-393616160/',
+            github : 'https://github.com/aaronyang24'
         },
         {
-            src : jonathan,
-            alt : 'jonathan',
-            linkedin : 'https://www.linkedin.com/in/jon-escamilla/',
-            github : 'https://github.com/jonescamilla'
+            src : jesus,
+            alt : 'jesus',
+            linkedin : 'https://www.linkedin.com/in/jesus-modesto-vargas/',
+            github : 'https://github.com/jmodestov'
         },
         {
-            src : bren,
-            alt : 'bren',
-            linkedin : 'https://www.linkedin.com/in/brenyamaguchi/',
-            github : 'https://github.com/brenyama'
+            src : taven,
+            alt : 'taven',
+            linkedin : 'https://www.linkedin.com/in/taven-shumaker/',
+            github : 'https://github.com/TavenShumaker'
         },
         {
-            src : sean,
-            alt : 'sean',
-            linkedin : 'https://www.linkedin.com/in/sean-smith17/',
-            github : 'https://github.com/SmithSean17'
+            src : davide,
+            alt : 'davide',
+            linkedin : 'https://www.linkedin.com/in/davide-molino/',
+            github : 'https://github.com/davidemmolino'
         },
         {
             src : henry,
@@ -81,35 +81,35 @@ export default function Team() {
             linkedin : 'https://www.linkedin.com/in/anthony-lin/',
             github : 'https://github.com/anthonylin198'
         },
-        {
-            src : aaron,
-            alt : 'aaron',
-            linkedin : 'https://www.linkedin.com/in/aaron-yang-393616160/',
-            github : 'https://github.com/aaronyang24'
+        { 
+            src : saejin,
+            alt : 'saejin',
+            linkedin : 'https://github.com/skang1004',
+            github : 'https://www.linkedin.com/in/saejinkang1004/'
         },
         {
-            src : jesus,
-            alt : 'jesus',
-            linkedin : 'https://www.linkedin.com/in/jesus-modesto-vargas/',
-            github : 'https://github.com/jmodestov'
+            src : jonathan,
+            alt : 'jonathan',
+            linkedin : 'https://www.linkedin.com/in/jon-escamilla/',
+            github : 'https://github.com/jonescamilla'
         },
         {
-            src : taven,
-            alt : 'taven',
-            linkedin : 'https://www.linkedin.com/in/taven-shumaker/',
-            github : 'https://github.com/TavenShumaker'
+            src : bren,
+            alt : 'bren',
+            linkedin : 'https://www.linkedin.com/in/brenyamaguchi/',
+            github : 'https://github.com/brenyama'
         },
         {
-            src : davide,
-            alt : 'davide',
-            linkedin : 'https://www.linkedin.com/in/davide-molino/',
-            github : 'https://github.com/davidemmolino'
+            src : sean,
+            alt : 'sean',
+            linkedin : 'https://www.linkedin.com/in/sean-smith17/',
+            github : 'https://github.com/SmithSean17'
         }
     ];
 
     return (
         <div>
-            <h2 className="section-title-right">Contributors</h2>
+            <h2 className="section-title-center">Contributors</h2>
             <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
                     const linkedinIcon = <div><a href={ pic.linkedin }><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
