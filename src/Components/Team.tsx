@@ -117,7 +117,7 @@ export default function Team() {
 
                     return (
                         <div>
-                            <div>
+                            <div className="grid-flex">
                                 <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
                             </div>
                             <div className="flex-container">

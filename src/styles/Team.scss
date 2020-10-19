@@ -15,21 +15,24 @@
     ". . . ."
     ". . . .";
 }
-// styling for contributor pictures
+// styling for the individual contributor pictures
 .contributor {
     width: 50%;
     justify-self: center;
-    // margin: 50px auto 50px auto;
+}
+// styling for container holding contributor pictures
+.grid-flex {
+    display: flex;
+    justify-content: center;
 }
 
+// styling for container that holds socialmedia icons
 .flex-container {
     display: flex;
     flex-direction: row;
-    justify-self: flex-start;
-    width: 150px;
+    justify-self: center;
     margin: 15px auto 25px auto;
 }
-
 .social-icons {
     font-size: 50px;
 }
