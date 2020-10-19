@@ -1,5 +1,5 @@
 import React from 'react';
-import metricsGif from '../../assets/interpolate.gif';
+import metricsGif from '../../assets/metricsGif.gif';
 
 const hText: string = 'Performance Metrics';
 
@@ -10,12 +10,10 @@ const pText: string = 'Recoilize monitors component render times of your applica
 export default function MetricsSection() {
     return (
         <div className="feature-card">
-            <div className="feature-gif-left">
-                <div>
-                    <img src={ metricsGif } alt="GIF displaying graphs of render metrics"/>
-                </div>
+            <div className="feature-gif">
+                <img src={ metricsGif } alt="GIF displaying graphs of render metrics"/>
             </div>
-            <div className="feature-right-text">
+            <div className="feature-text-right">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>

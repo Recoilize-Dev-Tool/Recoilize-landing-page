@@ -10,14 +10,12 @@ const pText: string = 'The snapshots list provides state the state thoughout the
 export default function TimeTravelSection() {
     return (
         <div className="feature-card">
-            <div className="feature-left-text">
+            <div className="feature-text-left">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>
-            <div className="feature-gif-right">
-                <div>
-                    <img src={ TimeTravelGif } alt="GIF demonstrating time travel dubugging"/>
-                </div>
+            <div className="feature-gif">
+                <img src={ TimeTravelGif } alt="GIF demonstrating time travel dubugging"/>
             </div>
         </div>
     )
