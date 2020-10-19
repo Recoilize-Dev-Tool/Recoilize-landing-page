@@ -3,7 +3,7 @@ import React from 'react'
 export default function GettingStarted() {
   return (
     <div className='getting-started'>
-      <h1>Getting Started</h1>
+      <h1 className="section-title-center">Getting Started</h1>
       <div className='inner'>
         <ul className='listItems'>
           <li>1. npm install recoilize</li>
