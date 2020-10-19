@@ -64,10 +64,6 @@ export default function Team() {
         }
     ];
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7f9ba99876dddfc629639f43ebe91d5346ade171
     return (
         <div>
             <h2 className="section-title-right">Contributors</h2>
