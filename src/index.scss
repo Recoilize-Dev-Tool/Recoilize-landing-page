@@ -7,6 +7,8 @@
 @import './styles/Footer.scss';
 @import './styles/GettingStarted.scss';
 
+@import "./styles/Constants";
+
 body {
     margin: 0;
     padding: 0;
@@ -24,6 +26,13 @@ body {
 .App {
     display: flex;
     flex-direction: column;
+}
+
+.dark-background {
+    background-color: $background-dark;
+}
+.light-background {
+    background-color: $background-veryLight;
 }
 
 // .main-section {

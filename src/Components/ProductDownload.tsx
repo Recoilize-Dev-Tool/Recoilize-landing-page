@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProductDownload() {
   return (
-    <div className='Product'>
+    <div className='Product light-background'>
       <div className='inner'>
         <h1>A Chrome extension that helps debug Recoil applications by memorizing the state of components with every render.</h1>
         <div className='buttons'>
