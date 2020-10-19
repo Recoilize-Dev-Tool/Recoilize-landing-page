@@ -2,10 +2,7 @@ import '../index.scss';
 import React from 'react';
 import Github from '../assets/github-logo.svg';
 import Linkedin from '../assets/linkedin-logo.svg';
-// import { FaGithub } from 'react-icons/fa';
-// import { FaLinkedin } from 'react-icons/fa';
-// {`${FaLinkedin}`}
-// {`${FaGithub}`}
+
 
 export default function Navbar() {
   return (  
