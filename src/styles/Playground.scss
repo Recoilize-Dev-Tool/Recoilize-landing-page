@@ -1,20 +1,28 @@
+
+@import "./styles/Constants";
+
+
+#playground-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  color: $lightLight;
+}
+
 #playground-container {
-  background-color: white;
+  background-color: $background-veryLight;
   width: 80vw;
   height: 80vh;
-  color: black;
+  color: $dark;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-#playground-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #playgound-start {
@@ -30,10 +38,6 @@
 
 /* Playground section */
 
-#playground-section {
-    margin: 50px auto;
-    padding: 0 140px 0 140px;
-}
 
 #playground-section h2 {
     font-size: 3em;
