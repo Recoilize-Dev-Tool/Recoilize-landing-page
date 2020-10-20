@@ -1,13 +1,14 @@
 @import "./styles/Constants";
 
 .Product .inner {
+
   height: 55vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
-.Product .inner h2 {
+#Product .inner h2 {
   width: 900px;
   text-align: center;
   color: $dark;

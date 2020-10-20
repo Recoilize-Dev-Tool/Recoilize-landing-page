@@ -10,6 +10,7 @@ const play = useRecoilValue(playStart)
  
 return (
     <div className="dark-background" id="playground-section">
+
         <h2 className="section-title-center">Give it a try!</h2>
 
         <div id="playground-container">
