@@ -1,11 +1,13 @@
+@import "./styles/Constants";
+
 .getting-started {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 50vh;
-  background-color: #f1f3f8;
-  color: #8d93ab;
+  height: 60vh;
+  color: $dark;
+
 }
 
 .getting-started .inner {
@@ -17,4 +19,18 @@
 
 .getting-started .listItems {
   list-style: none;
+  font-weight: 600;
+  margin-top: 60px;
+  max-width: 550px;
+  line-height: 2em;
+}
+
+#slide {
+  max-width: 550px;
+  border: 1px solid grey;
+}
+
+.each-slide div {
+  height: 200px;
+  width: 500px;
 }

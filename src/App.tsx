@@ -18,7 +18,6 @@ function App() {
       <GettingStarted />
       <PlaygroundSection />
       <Team />
-      <br/>
       <Footer />
     </div>
   );
