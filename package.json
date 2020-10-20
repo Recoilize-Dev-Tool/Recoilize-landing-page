@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
