@@ -1,4 +1,3 @@
-import react from 'react';
 import {atom, selector} from 'recoil';
 
 export const id = atom({
