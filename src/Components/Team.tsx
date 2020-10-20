@@ -16,8 +16,6 @@ import sean from '../assets/sean.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-import { link } from 'fs';
-import { faTruckPickup } from '@fortawesome/free-solid-svg-icons';
 
 export default function Team() {
     const pictures = [
@@ -126,8 +124,8 @@ export default function Team() {
             <h2 className="section-title-center">Contributors</h2>
             <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
-                    const linkedinIcon = <div><a href={ pic.linkedin } target="_blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
-                    const github = <div><a href={ pic.github } target="_blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
+                    const linkedinIcon = <div><a href={ pic.linkedin } target="blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
+                    const github = <div><a href={ pic.github } target="blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
 
                     return (
                         <div>

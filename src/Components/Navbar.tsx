@@ -16,8 +16,8 @@ export default function Navbar() {
       </div>
       <div id='nav-right'>
         <ul>
-          <li><a href="https://www.linkedin.com/company/recoilize/" target='_blank'><img id="linkedin-logo" src={Linkedin} alt="link to linkedin"/></a></li>
-          <li><a href="https://github.com/open-source-labs/Recoilize" target='_blank'><img id="github-logo" src={Github} alt="link to github"/></a></li>
+          <li><a href="https://www.linkedin.com/company/recoilize/" target='blank'><img id="linkedin-logo" src={Linkedin} alt="link to linkedin"/></a></li>
+          <li><a href="https://github.com/open-source-labs/Recoilize" target='blank'><img id="github-logo" src={Github} alt="link to github"/></a></li>
         </ul>
       </div>
     </nav>
