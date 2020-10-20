@@ -9,8 +9,7 @@ export default function PlaygroundSection() {
 const play = useRecoilValue(playStart)
  
 return (
-    <div>
-        <h1>Give it a try!</h1>
+    <div className="dark-background" id="playground-section">
 
         <h2 className="section-title-center">Give it a try!</h2>
 

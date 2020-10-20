@@ -1,4 +1,6 @@
-#getting-started {
+@import "./styles/Constants";
+
+.getting-started {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -8,14 +10,14 @@
 
 }
 
-#getting-started .inner {
+.getting-started .inner {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-#getting-started .listItems {
+.getting-started .listItems {
   list-style: none;
   font-weight: 600;
   margin-top: 60px;
