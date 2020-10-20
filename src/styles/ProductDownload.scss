@@ -2,21 +2,20 @@
 // .Product {
 //   background-color:#f1f3f8;
 // }
-.Product .inner {
+#Product .inner {
   height: 55vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
-.Product .inner h2 {
+#Product .inner h2 {
   width: 900px;
   text-align: center;
   color: $dark;
   font-weight: 300;
   font-size: 2em;
-//   margin-bottom: 40px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   margin-top: 0;
 
 }
