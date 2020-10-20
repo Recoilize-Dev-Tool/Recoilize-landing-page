@@ -8,8 +8,9 @@
 
 
 .grid-container {
+    margin: 0 auto;
     display: grid;
-    width: 100vw;
+    width: 70vw;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -21,7 +22,7 @@
 }
 // styling for the individual contributor pictures
 .contributor {
-    width: 50%;
+    width: 40%;
     justify-self: center;
 }
 // styling for container holding contributor pictures
@@ -39,7 +40,7 @@
 }
 .social-icons {
     width: 100%;
-    font-size: 40px;
+    font-size: 25px;
     margin: auto 15px auto 15px;
 }
 
