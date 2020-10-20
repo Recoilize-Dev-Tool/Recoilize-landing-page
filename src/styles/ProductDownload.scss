@@ -1,6 +1,7 @@
-.Product {
-  background-color:#f1f3f8;
-}
+@import "./styles/Constants";
+// .Product {
+//   background-color:#f1f3f8;
+// }
 .Product .inner {
   height: 55vh;
   display: flex;
@@ -11,35 +12,39 @@
 .Product .inner h2 {
   width: 900px;
   text-align: center;
-  color: #393b44;
+  color: $dark;
   font-weight: 300;
   font-size: 2em;
+//   margin-bottom: 40px;
   margin-bottom: 0;
   margin-top: 0;
+
 }
-.Product .buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 400px;
-  padding: 40px; 
-}
-.buttons .button{
-  padding: 10px 30px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  color:#FFFFFF;
-  background-color:#8d93ab;
-  text-align: center;
-}
-.button:hover {
-  color: rgb(69, 116, 179);
-}
+// .Product .buttons {
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+//   max-width: 400px;
+//   padding: 40px; 
+// }
+// .buttons .button{
+//   padding: 10px 30px;
+//   border-radius: 5px;
+//   text-decoration: none;
+//   font-family: 'Raleway', sans-serif;
+//   font-weight: 500;
+//   color: $lightLight;
+//   background-color:#8d93ab;
+//   text-align: center;
+// }
+// .button:hover {
+//   color: rgb(69, 116, 179);
+// }
+
 .Product .inner p {
   width: 900px;
   text-align: center;
-  color: #393b44;
+  color: $dark;
   font-size: 1.5em;
+  margin-top: 40px;
 }

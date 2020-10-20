@@ -1,7 +1,11 @@
+
+@import "./styles/Constants";
+
 #contributor-pictures p {
     margin: 15px;
     text-align: center;
 }
+
 
 .grid-container {
     display: grid;
@@ -44,7 +48,7 @@
 }
 
 .github {
-    color: white;
+    color: $dark;
 }
 
 // hover effect for socialmedia icons

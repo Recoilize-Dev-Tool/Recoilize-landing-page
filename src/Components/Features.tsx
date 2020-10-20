@@ -7,8 +7,11 @@ import React from 'react';
 
 export default function Features() {
     return (
-        <div className="features-container">
+
+        <div className="features-container dark-background">
+
             <h1 className="section-title-center">Features</h1>
+
             <TimeTravelSection />
             <NetworkSection />
             <ComponentGraphSection />
