@@ -14,8 +14,7 @@ const slideImages = [
 export default function GettingStarted() {
   return (
 
-    <div className='getting-started light-background'>
-
+    <div id='getting-started' className='getting-started light-background'>
       <h1>Getting Started</h1>
       <div className='inner'>
         <ul className='listItems'>
