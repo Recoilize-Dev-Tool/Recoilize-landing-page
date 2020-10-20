@@ -8,12 +8,14 @@
   justify-content: center;
   align-items: center;
 }
-.Product .inner h1 {
+.Product .inner h2 {
   width: 900px;
   text-align: center;
   color: #393b44;
   font-weight: 300;
   font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .Product .buttons {
   display: flex;
