@@ -61,7 +61,7 @@ const Board = (props) => {
       <h2>
           {gameEndSelectorState ? 'game over' : null}
       </h2>
-      <button type="button" onClick={restartButton}>Restart</button>
+      <button className="grey-button smaller-button" type="button" onClick={restartButton}>Restart</button>
     </div>
   )
 }
