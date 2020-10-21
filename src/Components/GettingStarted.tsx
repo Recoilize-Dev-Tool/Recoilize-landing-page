@@ -1,9 +1,9 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import slide1 from '../assets/slideimages/Step1.png';
-import slide2 from '../assets/slideimages/Step2.png';
-import slide3 from '../assets/slideimages/Step3.png';
+import slide1 from '../assets/slideimages/slide1.png';
+import slide2 from '../assets/slideimages/slide2.png';
+import slide3 from '../assets/slideimages/slide3.png';
 
 const slideImages = [
   slide1,
@@ -25,11 +25,11 @@ export default function GettingStarted() {
         <div>
         <Slide id='slide' easing="ease">
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            <div className='solo-slide' style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
           </div>
           <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            <div className='solo-slide' style={{'backgroundImage': `url(${slideImages[1]})`}}>
             </div>
           </div>
           <div className="each-slide">
