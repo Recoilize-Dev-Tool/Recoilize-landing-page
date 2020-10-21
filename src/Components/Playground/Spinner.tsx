@@ -2,7 +2,7 @@ import React from "react";
 
 export const Spinner = () => (
   <div>
-    <svg
+    {/* <svg
       style={{
         margin: "auto",
         background: "transparent",
@@ -34,6 +34,6 @@ export const Spinner = () => (
           values="0 50 50;360 50 50"
         />
       </circle>
-    </svg>
+    </svg> */}
   </div>
 );
