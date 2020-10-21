@@ -23,7 +23,7 @@ export default function Team() {
             src : aaron,
             alt : 'aaron',
             name: 'Aaron Yang',
-            linkedin : 'https://www.linkedin.com/in/aaron-yang-393616160/',
+            linkedin : 'https://www.linkedin.com/in/aaronyang24/',
             github : 'https://github.com/aaronyang24'
         },
         {
