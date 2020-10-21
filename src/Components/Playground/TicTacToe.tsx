@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import "core-js/stable";
-// eslint-disable-next-line
-import { RecoilRoot, useRecoilState, useRecoilValue } from 'recoil';
-import { squareStates, currentPlayerState, gameEndSelector } from '../Store/Atoms';
-
+import { RecoilRoot, Resetter, useRecoilState, useRecoilValue, useResetRecoilState } from 'recoil';
+import { squareStates, currentPlayerState, gameEndSelector} from '../Store/Atoms';
 
 const boardSize = 3;
 
@@ -31,12 +29,39 @@ const Board = (props) => {
     />
   })
 
+  const resetCurrentPlayerState = useResetRecoilState(currentPlayerState);
+
+  let resetSquare1 = useResetRecoilState(squareStates[0])
+  let resetSquare2 = useResetRecoilState(squareStates[1])
+  let resetSquare3 = useResetRecoilState(squareStates[2])
+  let resetSquare4 = useResetRecoilState(squareStates[3])
+  let resetSquare5 = useResetRecoilState(squareStates[4])
+  let resetSquare6 = useResetRecoilState(squareStates[5])
+  let resetSquare7 = useResetRecoilState(squareStates[6])
+  let resetSquare8 = useResetRecoilState(squareStates[7])
+  let resetSquare9 = useResetRecoilState(squareStates[8])
+  
+  const restartButton = () => {
+     resetCurrentPlayerState();
+     resetSquare1();
+     resetSquare2();
+     resetSquare3();
+     resetSquare4();
+     resetSquare5();
+     resetSquare6();
+     resetSquare7();
+     resetSquare8();
+     resetSquare9();
+     
+  }
+
   return (
     <div>
       {rows}
       <h2>
           {gameEndSelectorState ? 'game over' : null}
       </h2>
+      <button type="button" onClick={restartButton}>Restart</button>
     </div>
   )
 }
