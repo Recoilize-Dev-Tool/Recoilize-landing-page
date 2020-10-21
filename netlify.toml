@@ -2,4 +2,5 @@
     base = "/"
     publish = "build/"
     command = "CI= react-scripts build"
-    build = "build"
+
+n
