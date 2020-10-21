@@ -14,7 +14,7 @@ export const playStart = atom({
 // TicTacToe Atoms & Selectors
 // Refactor to move selectors to selectors.tsx
 
-const boardSize = 3;
+export const boardSize = 3;
 
 export const squareStates = Array(boardSize * boardSize).fill(null).map((el, i) => (
   atom({
