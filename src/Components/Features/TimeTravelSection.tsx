@@ -9,7 +9,7 @@ const pText: string = 'The snapshots list provides state the state thoughout the
 
 export default function TimeTravelSection() {
     return (
-        <div className="feature-card">
+        <div className="feature-card first-feature-card">
             <div className="feature-text-left">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
