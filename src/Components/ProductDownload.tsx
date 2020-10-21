@@ -7,7 +7,7 @@ export default function ProductDownload() {
         <h2  className="section-title-center" style={{ color:  "#393b44" }}>A Chrome extension that helps debug Recoil applications by memorizing the state of components with every render.</h2 >
         <div className='buttons'>
 
-           <button className="grey-button btn-left">Get Started</button>
+           <a href='#getting-started-anchor'><button className="grey-button btn-left">Get Started</button></a>
            <button className="grey-button btn-right" onClick={()=>window.open('https://chrome.google.com/webstore/detail/recoilize/jhfmmdhbinleghabnblahfjfalfgidik?hl=en')}>Download</button>
 
         </div>
