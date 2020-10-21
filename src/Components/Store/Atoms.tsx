@@ -1,9 +1,9 @@
 import {atom, selector} from 'recoil';
 
-export const id = atom({
-  key: 'id',
-  default: 1,
-});
+// export const id = atom({
+//   key: 'id',
+//   default: 1,
+// });
 
 export const playStart = atom({
   key: 'playStart',
