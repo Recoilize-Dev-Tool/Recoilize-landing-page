@@ -15,23 +15,23 @@ import TimeTravelSection from './Components/Features/TimeTravelSection';
 // });
 
 describe('app correctly renders components', () => {
-  xit('should render navbar component', () => { 
+  it('should render navbar component', () => { 
     const wrapper = shallow(<Navbar />);
     expect(wrapper.find(<Navbar />).lenght.toBe(1)); 
   });
-  xit('should render landing page component', () => { 
+  it('should render landing page component', () => { 
     const wrapper = shallow(<LandingPage />);
     expect(wrapper.find(<LandingPage />).lenght.toBe(1)); 
   });
-  xit('should render time travel section component', () => { 
+  it('should render time travel section component', () => { 
     const wrapper = shallow(<TimeTravelSection />)
     expect(wrapper.find(<TimeTravelSection />).lenght.toBe(1)); 
   });
-  xit('should render playground section component', () => { 
+  it('should render playground section component', () => { 
     const wrapper = shallow(<PlaygroundSection />)
     expect(wrapper.find(<PlaygroundSection />).lenght.toBe(1)); 
   });
-  xit('should render footer component', () => { 
+  it('should render footer component', () => { 
     const wrapper = shallow(<Footer />)
     expect(wrapper.find(<Footer />).lenght.toBe(1)); 
   });

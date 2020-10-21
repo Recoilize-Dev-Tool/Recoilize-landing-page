@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import "@babel/polyfill";
+import "core-js/stable";
 import { RecoilRoot, Resetter, useRecoilState, useRecoilValue, useResetRecoilState } from 'recoil';
 import { squareStates, currentPlayerState, gameEndSelector} from '../Store/Atoms';
-
 
 const boardSize = 3;
 

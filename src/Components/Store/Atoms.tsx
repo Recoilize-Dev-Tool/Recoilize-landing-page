@@ -1,4 +1,3 @@
-import react from 'react';
 import {atom, selector} from 'recoil';
 
 export const id = atom({
@@ -50,6 +49,7 @@ export const gameEndSelector = selector({
 function checkWinState(currentPlayer, board) {
 
   const checkPlayer = currentPlayer === 'X' ? 'O' : 'X';
+  // eslint-disable-next-line
   let winBoxes;
 
   // check each row
