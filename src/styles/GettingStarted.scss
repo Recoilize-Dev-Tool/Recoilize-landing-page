@@ -20,18 +20,24 @@
 .getting-started .listItems {
   list-style: none;
   font-weight: 600;
-  margin-top: 60px;
+  margin-top: 30px;
   max-width: 550px;
-  line-height: 2em;
+  line-height: 2.3em;
+  font-size: 1.3em;
+}
+.slide-container {
+  border-radius: 15px;
 }
 
 #slide {
-  max-width: 550px;
+  max-width: 500px;
   border: 1px solid grey;
+  border-radius: 15px;
 }
 
 .each-slide div {
-  width: 550px;
+  width: 500px;
   height: 200px;
   background-size: 100% 100%;
+  border-radius: 15px;
 }
