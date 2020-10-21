@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import slide1 from '../assets/slideimages/slide1.png';
 import slide2 from '../assets/slideimages/slide2.png';
@@ -22,8 +22,8 @@ export default function GettingStarted() {
           <li>2. import recoilize debugger</li>
           <li>3. implement {"<"}RecoilizeDebugger{">"}</li>
         </ul>
-        <div>
-        <Slide id='slide' easing="ease">
+        <div className='slide-container'>
+        <Fade id='slide' easing="ease">
           <div className="each-slide">
             <div className='solo-slide' style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
@@ -36,7 +36,7 @@ export default function GettingStarted() {
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
             </div>
           </div>
-        </Slide>
+        </Fade>
         </div>
       </div>
       <p>For more information on getting started visit our <a href='https://github.com/open-source-labs/Recoilize' target='blank'>GitHub</a></p>
