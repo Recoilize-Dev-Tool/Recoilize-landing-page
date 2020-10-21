@@ -1,11 +1,14 @@
-.nav {
+.nav-bar {
   padding: 5px;
   background-color: #393b44;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-.nav ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 5px 0 0 0;
   padding: 0;

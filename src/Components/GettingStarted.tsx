@@ -15,7 +15,7 @@ export default function GettingStarted() {
   return (
 
     <div id='getting-started' className='getting-started light-background'>
-      <h1>Getting Started</h1>
+      <h1 id="getting-started-anchor">Getting Started</h1>
       <div className='inner'>
         <ul className='listItems'>
           <li>1. npm install recoilize</li>
