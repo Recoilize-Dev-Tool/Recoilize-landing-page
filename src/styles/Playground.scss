@@ -140,3 +140,72 @@ TIC-TAC-TOE
   border: 2px solid red;
   color: red;
 }
+
+@media (max-width: 700px) {
+
+.playground-box {
+  height: 80px;
+  width: 80px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2.5em;
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+.playground-box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2.5em;
+}
+
+}
+
+
+@media (max-width: 400px) {
+
+.playground-box {
+  height: 70px;
+  width: 70px;
+  border: 2px solid $dark;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 3em;
+  font-family: Menlo;
+}
+
+.playground-box {
+  font-size: 2em;
+}
+
+#playground-container {
+  width: 80vw;
+}
+
+}
