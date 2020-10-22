@@ -120,8 +120,8 @@ export default function Team() {
     ];
 
     return (
-        <div className="light-background">
-            <h2 className="section-title-center" id="contributor-anchor">Contributors</h2>
+        <div className="light-background" id="contributor-anchor">
+            <h2 className="section-title-center">Contributors</h2>
             <div id="contributor-pictures" className="grid-container">
                 {pictures.map((pic, i) => {
                     const linkedinIcon = <div><a href={ pic.linkedin } target="blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
