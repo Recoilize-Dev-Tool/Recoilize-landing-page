@@ -135,139 +135,139 @@
 }
 
 
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait){
+// @media only screen 
+//   and (min-width: 414px) 
+//   and (max-width: 736px) 
+//   and (-webkit-min-device-pixel-ratio: 3)
+//   and (orientation: portrait){
 
-    .grid-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
+//     .grid-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 95%;
 
-    margin-bottom: 40px;
-    }
+//     margin-bottom: 40px;
+//     }
 
-    .contributor {
-    height: 70%;
-    justify-self: center;
-    }
+//     .contributor {
+//     height: 70%;
+//     justify-self: center;
+//     }
 
-    .individual-pic-container {
-        width: 50%;
-    }
-
-
-    .flex-container {
-        margin: 5px auto 25px auto;
-    }
-    #contributor-pictures p {
-        margin: 5px;
-
-    }
-
-}
+//     .individual-pic-container {
+//         width: 50%;
+//     }
 
 
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3){
+//     .flex-container {
+//         margin: 5px auto 25px auto;
+//     }
+//     #contributor-pictures p {
+//         margin: 5px;
 
-    .grid-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
+//     }
 
-    margin-bottom: 40px;
-    }
-
-    .contributor {
-    height: 70%;
-    justify-self: center;
-    }
-
-    .individual-pic-container {
-        width: 50%;
-    }
+// }
 
 
-    .flex-container {
-        margin: 5px auto 25px auto;
-    }
-    #contributor-pictures p {
-        margin: 5px;
+// @media only screen 
+//   and (min-width: 414px) 
+//   and (max-width: 736px) 
+//   and (-webkit-min-device-pixel-ratio: 3){
 
-    }
+//     .grid-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 95%;
 
-}
+//     margin-bottom: 40px;
+//     }
 
+//     .contributor {
+//     height: 70%;
+//     justify-self: center;
+//     }
 
-@media only screen 
-  and (min-width: 414px) 
-  and (-webkit-min-device-pixel-ratio: 3){
-
-    .grid-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
-
-    margin-bottom: 40px;
-    }
-
-    .contributor {
-    height: 70%;
-    justify-self: center;
-    }
-
-    .individual-pic-container {
-        width: 50%;
-    }
+//     .individual-pic-container {
+//         width: 50%;
+//     }
 
 
-    .flex-container {
-        margin: 5px auto 25px auto;
-    }
-    #contributor-pictures p {
-        margin: 5px;
+//     .flex-container {
+//         margin: 5px auto 25px auto;
+//     }
+//     #contributor-pictures p {
+//         margin: 5px;
 
-    }
+//     }
 
-}
+// }
 
 
-@media only screen
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3){
+// @media only screen 
+//   and (min-width: 414px) 
+//   and (-webkit-min-device-pixel-ratio: 3){
 
-    .grid-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 95%;
+//     .grid-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 95%;
 
-    margin-bottom: 40px;
-    }
+//     margin-bottom: 40px;
+//     }
 
-    .contributor {
-    height: 70%;
-    justify-self: center;
-    }
+//     .contributor {
+//     height: 70%;
+//     justify-self: center;
+//     }
 
-    .individual-pic-container {
-        width: 50%;
-    }
+//     .individual-pic-container {
+//         width: 50%;
+//     }
 
-    .flex-container {
-        margin: 5px auto 25px auto;
-    }
-    #contributor-pictures p {
-        margin: 5px;
 
-    }
+//     .flex-container {
+//         margin: 5px auto 25px auto;
+//     }
+//     #contributor-pictures p {
+//         margin: 5px;
 
-}
+//     }
+
+// }
+
+
+// @media only screen
+//   and (max-width: 736px) 
+//   and (-webkit-min-device-pixel-ratio: 3){
+
+//     .grid-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 95%;
+
+//     margin-bottom: 40px;
+//     }
+
+//     .contributor {
+//     height: 70%;
+//     justify-self: center;
+//     }
+
+//     .individual-pic-container {
+//         width: 50%;
+//     }
+
+//     .flex-container {
+//         margin: 5px auto 25px auto;
+//     }
+//     #contributor-pictures p {
+//         margin: 5px;
+
+//     }
+
+// }
