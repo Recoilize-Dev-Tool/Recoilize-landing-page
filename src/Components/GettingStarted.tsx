@@ -24,17 +24,17 @@ export default function GettingStarted() {
         </ul>
         <div className='slide-container'>
         <Fade id='slide' easing="ease">
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            </div>
+          <div className="each-slide" style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            {/* <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            </div> */}
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-            </div>
+          <div className="each-slide" style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            {/* <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            </div> */}
           </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-            </div>
+          <div className="each-slide" style={{'backgroundImage': `url(${slideImages[2]})`}}>
+            {/* <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+            </div> */}
           </div>
         </Fade>
         </div>

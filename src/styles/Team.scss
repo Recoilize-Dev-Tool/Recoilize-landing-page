@@ -23,7 +23,7 @@
 // styling for the individual contributor pictures
 .contributor {
     width: 40%;
-    height: auto;
+    height: 100%;
     justify-self: center;
 }
 // styling for container holding contributor pictures
@@ -59,7 +59,7 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1025px) {
 
     .grid-container {
     margin: 0 auto;
