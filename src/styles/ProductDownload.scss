@@ -12,7 +12,7 @@
   align-items: center;
 }
 #Product .inner h2 {
-  width: 900px;
+  width: 80%;
   text-align: center;
   color: $dark;
   font-weight: 300;
@@ -23,9 +23,97 @@
 }
 
 .Product .inner p {
-  width: 900px;
+  width: 80%;
   text-align: center;
   color: $dark;
   font-size: 1.5em;
   margin-top: 40px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+#Product .inner h2 {
+
+  font-size: 1.8em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.8em;
+
+}
+
+}
+
+@media (max-width: 770px) {
+#Product .inner h2 {
+
+  font-size: 1.5em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.5em;
+
+}
+
+
+}
+
+
+@media (max-width: 600px) {
+#Product .inner h2 {
+
+  font-size: 1.4em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.4em;
+
+}
+
+
+}
+
+@media (max-width: 500px) {
+#Product .inner h2 {
+
+  font-size: 1.3em;
+  margin-bottom: 15px;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.3em;
+    margin-top: 15px;
+
+}
+
+}
+
+
+@media (max-width: 320px) {
+
+#Product .inner h2 {
+
+  font-size: 0.8em;
+  margin-bottom: 15px;
+
+}
+
+.Product .inner p {
+
+  font-size: 0.8em;
+  margin-top: 15px;
+
+}
+
+
 }

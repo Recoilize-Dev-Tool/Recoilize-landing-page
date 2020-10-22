@@ -56,3 +56,85 @@
 .social-icons:hover {
     opacity: 0.85;
 }
+
+
+@media screen and (max-width: 400px) {
+
+    .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+
+    margin-bottom: 40px;
+    }
+
+    .contributor {
+    width: 20%;
+    justify-self: center;
+}
+
+    .individual-pic-container {
+        width: 50%;
+    }
+    .contributor {
+    width: 70%;
+    justify-self: center;
+}
+
+.flex-container {
+    margin: 5px auto 25px auto;
+}
+#contributor-pictures p {
+    margin: 5px;
+
+}
+
+
+}
+
+@media (min-width: 401px) and (max-width: 1000px) {
+
+    .grid-container {
+    margin: 0 auto;
+    display: grid;
+    width: 80vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . . "
+    ". . . "
+    ". . . "
+    ". . . "
+    ". . . ";
+
+    margin-bottom: 40px;
+}
+
+}
+
+
+@media (max-width: 700px) {
+
+    .grid-container {
+
+    width: 90vw;
+
+}
+
+}
+
+
+
+// @media (max-width: 600px) {
+
+//     .grid-container {
+
+//     font-size: 0.8em;
+
+// }
+
+// }
+
+

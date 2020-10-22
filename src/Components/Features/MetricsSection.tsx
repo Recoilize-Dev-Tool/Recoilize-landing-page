@@ -9,7 +9,7 @@ const pText: string = 'Recoilize monitors component render times of your applica
 
 export default function MetricsSection() {
     return (
-        <div className="feature-card">
+        <div className="feature-card right-card">
             <div className="feature-gif">
                 <video autoPlay loop muted controls={false}>
                     <source src={metricsVid} type="video/mp4"/>

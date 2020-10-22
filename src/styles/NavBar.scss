@@ -47,3 +47,13 @@
   background-color: #2867B2;
   fill:  #2867B2;
 }
+
+@media screen and (max-width: 400px) {
+
+
+#nav-right ul li{
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+}

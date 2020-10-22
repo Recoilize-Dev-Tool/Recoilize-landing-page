@@ -9,7 +9,7 @@ const pText: string = 'Atoms and selectors are visualized by Recoilize to show r
 
 export default function NetworkSection() {
     return (
-        <div className="feature-card">
+        <div className="feature-card right-card">
             <div className="feature-gif">
                 <video autoPlay loop muted controls={false}>
                     <source src={networkVid} type="video/mp4"/>

@@ -25,11 +25,11 @@ export default function GettingStarted() {
         <div className='slide-container'>
         <Fade id='slide' easing="ease">
           <div className="each-slide">
-            <div className='solo-slide' style={{'backgroundImage': `url(${slideImages[0]})`}}>
+            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
             </div>
           </div>
           <div className="each-slide">
-            <div className='solo-slide' style={{'backgroundImage': `url(${slideImages[1]})`}}>
+            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
             </div>
           </div>
           <div className="each-slide">

@@ -7,7 +7,7 @@ const pText: string = 'Two Recoilize features aid in the monitoring of state var
 
 export default function AppStateSection() {
     return (
-        <div className="feature-card">
+        <div className="feature-card last-card">
             <div className="feature-text-left">
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
