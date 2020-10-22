@@ -128,7 +128,7 @@ export default function Team() {
                     const github = <div><a href={ pic.github } target="blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
 
                     return (
-                        <div>
+                        <div className="individual-pic-container">
                             <div className="grid-flex">
                                 <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
                             </div>

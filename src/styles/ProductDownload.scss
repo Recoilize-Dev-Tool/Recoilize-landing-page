@@ -31,7 +31,57 @@
 }
 
 
-@media (max-width: 400px) {
+
+
+@media (max-width: 1000px) {
+#Product .inner h2 {
+
+  font-size: 1.8em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.8em;
+
+}
+
+}
+
+@media (max-width: 770px) {
+#Product .inner h2 {
+
+  font-size: 1.5em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.5em;
+
+}
+
+
+}
+
+
+@media (max-width: 600px) {
+#Product .inner h2 {
+
+  font-size: 1.4em;
+
+}
+
+.Product .inner p {
+
+  font-size: 1.4em;
+
+}
+
+
+}
+
+@media (max-width: 500px) {
 #Product .inner h2 {
 
   font-size: 1.3em;
@@ -44,7 +94,21 @@
 
 }
 
+}
 
 
+@media (max-width: 320px) {
+
+#Product .inner h2 {
+
+  font-size: 0.8em;
+
+}
+
+.Product .inner p {
+
+  font-size: 0.8em;
+
+}
 
 }
