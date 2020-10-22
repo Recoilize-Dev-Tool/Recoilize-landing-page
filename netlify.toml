@@ -1,6 +1,6 @@
 [build]
     publish = "build/"
-    command = "CI= react-scripts build"
+    command = "CI= npm run build --profile"
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]
