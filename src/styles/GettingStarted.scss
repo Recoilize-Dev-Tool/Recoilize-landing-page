@@ -27,9 +27,10 @@
   line-height: 2.3em;
   font-size: 1.3em;
 }
-.slide-container {
-  border-radius: 15px;
-}
+// .slide-container {
+//   border-radius: 15px;
+  
+// }
 
 #slide {
   max-width: 500px;
@@ -39,11 +40,13 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.each-slide div {
+.each-slide {
   width: 500px;
   height: 200px;
   background-size: 100% 100%;
   border-radius: 15px;
+  border: 1px solid #3B3B3B;
+  
 }
 
 /*******************
@@ -91,9 +94,6 @@
   background-size: 350px 150px;
   border-radius: 15px;
 
-  div {
-    border-radius: 15px;
-  }
 }
 
 
@@ -150,9 +150,7 @@
   height: 150px;
   background-size: 350px 150px;
   border-radius: 15px;
-  div {
-    border-radius: 15px;
-  }
+
 }
 
 }
@@ -207,9 +205,7 @@
   height: 150px;
   background-size: 350px 150px;
   border-radius: 15px;
-  div {
-    border-radius: 15px;
-  }
+
 }
 
 }
