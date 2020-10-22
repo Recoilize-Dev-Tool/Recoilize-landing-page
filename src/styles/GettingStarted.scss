@@ -10,12 +10,7 @@
 
 }
 
-.getting-started .inner {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+
 
 .getting-started .listItems {
   list-style: none;
@@ -42,4 +37,52 @@
   height: 200px;
   background-size: 100% 100%;
   border-radius: 15px;
+}
+
+/*******************
+ Mobile Phone Queries
+********************/
+
+@media (max-width: 400px) {
+
+.getting-started {
+  text-align: center;
+}
+
+.getting-started .listItems {
+  list-style: none;
+  font-weight: 600;
+  margin-top: 30px;
+  max-width: 550px;
+  line-height: 2.3em;
+  font-size: 1.3em;
+  text-align: center;
+}
+ 
+.getting-started .inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#slide {
+  max-width:350px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  border: 1px solid #3B3B3B;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.each-slide {
+  width: 350px;
+  height: 150px;
+  background-size: 350px 150px;
+  border-radius: 15px;
+}
+
+
+
+
 }
