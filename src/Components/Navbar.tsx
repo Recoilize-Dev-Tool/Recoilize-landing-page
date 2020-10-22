@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className='nav-bar'>
       <div id='nav-left' className="fade-in" >  
         <ul>
-          <li><a href="/src/index.tsx">Home</a></li>
+          <li><a href="#Landing">Home</a></li>
           <li><a href="#contributor-anchor">Contributors</a></li>
           <li><a href="#playground-section">Playground</a></li>
         </ul>
