@@ -43,3 +43,27 @@
     position: relative;
     bottom: 20px;
 }
+
+
+@media (max-width: 400px) {
+
+  #inner h1 {
+  font-weight: 100;
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img{
+    display: block;
+    margin-top: 25px;
+  }
+
+
+  }
+
+
+
+}
