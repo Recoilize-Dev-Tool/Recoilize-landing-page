@@ -14,11 +14,11 @@ export default function TimeTravelSection() {
                 <h2 className="feature-heading">{hText}</h2>
                 <p className="feature-paragraph">{pText}</p>
             </div>
-            <div className="feature-gif">
+            {/* <div className="feature-gif"> */}
                 <video autoPlay loop muted controls={false}>
                     <source src={timeTravelVid} type="video/mp4"/>
                 </video>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
