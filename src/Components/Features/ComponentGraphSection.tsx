@@ -3,7 +3,7 @@ const componentVid = require('../../assets/componentVid.mp4');
 
 const hText: string = 'Component Graph';
 
-const pText: string = 'Recoilize provides a visualization of the the component tree. See the heirarchy of React components while also being provided information on which components are subscribed to particular atoms and selectors, as well as the current values of those selectors.\n\nAdditional functionality has been added to the component graph to support React Concurrent-Mode. Visualize which components were suspended during rendering.';
+const pText: string = 'Recoilize provides a visualization of the the component tree. See the hierarchy of React components while also being provided information on which components are subscribed to particular atoms and selectors, as well as the current values of those selectors.\n\nAdditional functionality has been added to the component graph to support React Concurrent-Mode. Visualize which components were suspended during rendering.';
 
 export default function ComponentGraphSection() {
     return (
