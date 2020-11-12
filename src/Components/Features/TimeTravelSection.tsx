@@ -3,7 +3,7 @@ const timeTravelVid = require('../../assets/timeTravelVid.mp4');
 
 const hText: string = 'Time Travel';
 
-const pText: string = 'The snapshots list provides state the state thoughout the applications runtime. Each time a state change occurs a new snapshot is added. These snapshots can be clicked to view information about application at that instance of state. Alternatively the jump button can be pressed to revert application state back a pervious instance.';
+const pText: string = 'The snapshots list provides the state thoughout the applications runtime. Each time a state change occurs a new snapshot is added. These snapshots can be clicked to view information about application at that instance of state. Alternatively the jump button can be pressed to revert application state back a pervious instance.';
 
 
 
