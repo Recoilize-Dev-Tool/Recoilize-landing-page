@@ -1,5 +1,5 @@
 import React from 'react'
-const networkVid = require('../../assets/networkVid.mp4');
+const networkVid = require('../../assets/atomNetwork.mp4');
 
 const hText: string = 'Visualize Atoms and Selectors';
 
