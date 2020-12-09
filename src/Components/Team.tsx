@@ -13,12 +13,48 @@ import anthony from '../assets/anthony.png';
 import henry from '../assets/henry.png';
 import seungho from '../assets/seungho.png';
 import sean from '../assets/sean.png';
+import janis from '../assets/janis.png';
+import edward from '../assets/edward.png';
+import jaime from '../assets/jaime.png';
+import Anthony from '../assets/anthonyM.png';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
 export default function Team() {
     const pictures = [
+        {
+            src : Anthony,
+            alt : 'Anthony',
+            name: 'Anthony Magallanes',
+            linkedin : 'https://www.linkedin.com/in/anthony-magallanes/',
+            github : 'https://github.com/amagalla'
+        },
+        {
+            src : jaime,
+            alt : 'jaime',
+            name: 'Jaime Baik',
+            linkedin : 'https://www.linkedin.com/in/jaime-baik/',
+            github : 'https://github.com/jaimebaik'
+        },
+        {
+            src : janis,
+            alt : 'janis',
+            name: 'Janis Hernandez Aguilar',
+            linkedin : 'https://www.linkedin.com/in/janis-h/',
+            github : 'https://github.com/Janis-H'
+        },
+        {
+            src : edward,
+            alt : 'edward',
+            name: 'Edward Shei',
+            linkedin : 'https://www.linkedin.com/in/edwardshei/',
+            github : 'https://github.com/calibeach'
+        },
         {
             src : aaron,
             alt : 'aaron',
@@ -142,6 +178,5 @@ export default function Team() {
                 })}
             </div>
         </div>
-
     )
 }
