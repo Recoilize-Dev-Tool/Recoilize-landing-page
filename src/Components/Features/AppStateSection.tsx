@@ -1,5 +1,5 @@
 import React from 'react'
-const appStateVid = require('../../assets/monitorState.mp4');
+const appStateVid = require('../../assets/monitorStateCompressed.mp4');
 
 const hText: string = 'Monitor Application State';
 

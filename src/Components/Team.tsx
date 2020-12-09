@@ -222,22 +222,23 @@ export default function Team() {
             <div className="light-background" id="contributor-anchor">
                 <h2 className="section-title-center">Contributors</h2>
                 <div id="contributor-pictures" className="grid-container">
-                { carousel[currentSlide].map((pic, i) => {
-                    const linkedinIcon = <div><a href={ pic.linkedin } target="blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
-                    const github = <div><a href={ pic.github } target="blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
-                    return (
-                        <div className="individual-pic-container">
-                            <div className="grid-flex">
-                                <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
+                    { carousel[currentSlide].map((pic, i) => {
+                        const linkedinIcon = <div><a href={ pic.linkedin } target="blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
+                        const github = <div><a href={ pic.github } target="blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
+                        return (
+                            <div className="individual-pic-container" key={i}>
+                                <div className="grid-flex">
+                                    <img src={pic.src} alt={pic.alt} key={`${pic.alt}-${i}`} className="contributor" />
+                                </div>
+                                <p>{ pic.name }</p>
+                                <div className="flex-container">
+                                    { linkedinIcon }
+                                    { github }
+                                </div>
                             </div>
-                            <p>{ pic.name }</p>
-                            <div className="flex-container">
-                                { linkedinIcon }
-                                { github }
-                            </div>
-                        </div>
-                    )
-                })}</div>
+                        )
+                    })}
+                </div>
             </div>
     )
 }

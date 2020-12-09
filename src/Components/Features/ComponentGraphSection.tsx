@@ -1,5 +1,5 @@
 import React from 'react'
-const componentVid = require('../../assets/componentGraph.mp4');
+const componentVid = require('../../assets/componentGraphCompressed.mp4');
 
 const hText: string = 'Component Graph';
 

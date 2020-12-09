@@ -1,5 +1,5 @@
 import React from 'react';
-const metricsVid = require('../../assets/metricsTab.mp4');
+const metricsVid = require('../../assets/metricsTabCompressed.mp4');
 
 const hText: string = 'Performance Metrics';
 
