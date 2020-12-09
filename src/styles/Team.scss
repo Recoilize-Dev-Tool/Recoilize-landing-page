@@ -5,19 +5,16 @@
     text-align: center;
 }
 
-
 .grid-container {
     margin: 0 auto;
     display: grid;
     width: 70vw;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . .";
+    ". . ."
+    ". . .";
     margin-bottom: 40px;
 }
 // styling for the individual contributor pictures
@@ -66,15 +63,11 @@
     display: grid;
     width: 80vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
     ". . . "
-    ". . . "
-    ". . . "
-    ". . . "
     ". . . ";
-
     margin-bottom: 40px;
     }
 
