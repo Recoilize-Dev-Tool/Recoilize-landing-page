@@ -1,5 +1,5 @@
 import React from 'react';
-const timeTravelVid = require('../../assets/timeTravelVid.mp4');
+const timeTravelVid = require('../../assets/timeTravel.mp4');
 
 const hText: string = 'Time Travel';
 
