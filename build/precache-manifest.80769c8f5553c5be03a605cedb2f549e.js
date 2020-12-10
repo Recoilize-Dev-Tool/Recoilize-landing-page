@@ -1,30 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-<<<<<<< HEAD:build/precache-manifest.8ce84ad49ff862c18a75367131eff582.js
-    "revision": "08536e905e610dfbdba0202282805e92",
-    "url": "./index.html"
-  },
-  {
-    "revision": "99b131f1c51c76a6b016",
-    "url": "./static/css/2.69507427.chunk.css"
-  },
-  {
-    "revision": "69812587c9260220ad40",
-    "url": "./static/css/main.d30deec7.chunk.css"
-  },
-  {
-    "revision": "99b131f1c51c76a6b016",
-    "url": "./static/js/2.ad63de71.chunk.js"
-  },
-  {
-    "revision": "b0a8bfda46c9f88949794eb83bf057ee",
-    "url": "./static/js/2.ad63de71.chunk.js.LICENSE.txt"
-  },
-  {
-    "revision": "69812587c9260220ad40",
-    "url": "./static/js/main.6757bbd7.chunk.js"
-=======
-    "revision": "eed94817c0fe3f0c3b7540a708c67f92",
+    "revision": "7b9d05126f8d0ca5dfff30452e5b3309",
     "url": "./index.html"
   },
   {
@@ -32,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.69507427.chunk.css"
   },
   {
-    "revision": "244669074c26aad541e6",
-    "url": "./static/css/main.503f99c0.chunk.css"
+    "revision": "258023104c9f094a71c2",
+    "url": "./static/css/main.40db32f8.chunk.css"
   },
   {
     "revision": "94ceedfbc325d3ffbdfc",
@@ -44,9 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.3e061dda.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "244669074c26aad541e6",
-    "url": "./static/js/main.d736255c.chunk.js"
->>>>>>> 61708e0e4e2719ba1961e2d92c650ee75c6bffb0:build/precache-manifest.a4bb1f9e20d4ae986c5f3ea993f84a87.js
+    "revision": "258023104c9f094a71c2",
+    "url": "./static/js/main.022f49a7.chunk.js"
   },
   {
     "revision": "3ac28ea2f11508636119",
@@ -65,26 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/anthonyM.ecbe9b9b.png"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.8ce84ad49ff862c18a75367131eff582.js
     "revision": "964fb95b9a852cd107388c668cf47ceb",
     "url": "./static/media/atomNetwork.964fb95b.mp4"
-=======
-    "revision": "f8b8bf4941bc85bfdd0433ffb2b4e5a3",
-    "url": "./static/media/atomNetwork.f8b8bf49.mp4"
->>>>>>> 61708e0e4e2719ba1961e2d92c650ee75c6bffb0:build/precache-manifest.a4bb1f9e20d4ae986c5f3ea993f84a87.js
   },
   {
     "revision": "bad8ddb716f21a3f2f1217b750861b34",
     "url": "./static/media/bren.896ae755.png"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.8ce84ad49ff862c18a75367131eff582.js
     "revision": "602cbdb46319c581a1e8d6cc2e429fe5",
     "url": "./static/media/componentGraphCompressed.602cbdb4.mp4"
-=======
-    "revision": "bba1b384462858e0c83925690565611a",
-    "url": "./static/media/componentGraph.bba1b384.mp4"
->>>>>>> 61708e0e4e2719ba1961e2d92c650ee75c6bffb0:build/precache-manifest.a4bb1f9e20d4ae986c5f3ea993f84a87.js
   },
   {
     "revision": "84550f788a587069e4a8b40824d931ae",
@@ -127,21 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/linkedin-logo.8cc2d3a8.svg"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.8ce84ad49ff862c18a75367131eff582.js
     "revision": "50b304eea59f28ab7e2b3339d31328cc",
     "url": "./static/media/metricsTabCompressed.50b304ee.mp4"
   },
   {
     "revision": "0b552d7c7dee4a774e5a44814fe75d4e",
     "url": "./static/media/monitorStateCompressed.0b552d7c.mp4"
-=======
-    "revision": "a000def11fc23ff40c13215851907f86",
-    "url": "./static/media/metricsTab.a000def1.mp4"
-  },
-  {
-    "revision": "51ddb9ae5fca451ab138fdba8aedce95",
-    "url": "./static/media/monitorState.51ddb9ae.mp4"
->>>>>>> 61708e0e4e2719ba1961e2d92c650ee75c6bffb0:build/precache-manifest.a4bb1f9e20d4ae986c5f3ea993f84a87.js
   },
   {
     "revision": "ea09813e5cbea292c48c47cf8e5e8f67",
@@ -180,12 +136,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/taven.caba457b.png"
   },
   {
-<<<<<<< HEAD:build/precache-manifest.8ce84ad49ff862c18a75367131eff582.js
-    "revision": "982730892856b235281d4d065120bfe5",
-    "url": "./static/media/timeTravel.98273089.mp4"
-=======
     "revision": "00a604871aa32c12c341edac9c0b06f7",
     "url": "./static/media/timeTravel.00a60487.mp4"
->>>>>>> 61708e0e4e2719ba1961e2d92c650ee75c6bffb0:build/precache-manifest.a4bb1f9e20d4ae986c5f3ea993f84a87.js
   }
 ]);

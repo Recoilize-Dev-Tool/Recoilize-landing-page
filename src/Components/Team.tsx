@@ -37,22 +37,6 @@ interface Person {
 }
 
 export default function Team() {
-    // currentSlide is to keep track of what slide page we're on in the carousel
-    const [currentSlide, setCurrentSlide] = useState<number>(0);
-
-    // when the component mounts,
-    // set an interval to change the contributers slide every 5 seconds
-    useEffect(() => {
-        setInterval(() => {
-            setCurrentSlide((prevSlide) => {
-                if (prevSlide >= carousel.length - 1) {
-                    return 0;
-                }
-                return prevSlide + 1
-            })
-        }, 5000);
-    }, [])
-
     // ! To add yourself to the website:
     //     1. import your image (png)
     //     2. create a Person object in the pictures array
@@ -187,42 +171,11 @@ export default function Team() {
         }
     ];
 
-    // carousel is an array of Person subArrays
-    // each subArray is an object of people
-    const carousel: Person[][] = [];
-
-    // slide length is the number of people per 'slide' 
-    // at the bottom of the website
-    // ! NOTE: if you change this number,
-    // ! you have to change the number of 
-    // ! grid-template-columns and grid-template-areas
-    // ! in .grid-container (in the Team.scss file) 
-    const SLIDE_LENGTH = 6;
-
-    let count = 0
-    let picSubArr: Person[] = [];
-    for (let i = 0; i < pictures.length; i += 1) {
-        // if count is equal to slide length
-        if (count === SLIDE_LENGTH) {
-            // reassign count to 0
-            count = 0;
-            // push subArr into carousel
-            carousel.push(picSubArr);
-            // empty subarr
-            picSubArr = [];
-        }
-        // push current picture into subArr
-        picSubArr.push(pictures[i]);
-        // increment count
-        count++;
-    }
-    carousel.push(picSubArr);
-    
     return (
             <div className="light-background" id="contributor-anchor">
                 <h2 className="section-title-center">Contributors</h2>
                 <div id="contributor-pictures" className="grid-container">
-                    { carousel[currentSlide].map((pic, i) => {
+                    { pictures.map((pic, i) => {
                         const linkedinIcon = <div><a href={ pic.linkedin } target="blank" ><FontAwesomeIcon icon={faLinkedin} className="social-icons linkedin"/></a></div>
                         const github = <div><a href={ pic.github } target="blank" ><FontAwesomeIcon icon={faGithubSquare} className="social-icons github"/></a></div>
                         return (
