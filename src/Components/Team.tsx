@@ -19,7 +19,11 @@ import jaime from '../assets/jaime.png';
 import Anthony from '../assets/anthonyM.png';
 import leftArrow from '../assets/left-arrow.png';
 import rightArrow from '../assets/right-arrow.png';
-
+import jason from '../assets/jason.png';
+import scott from '../assets/scott.png';
+import nathan from '../assets/nathan.png';
+import razana from '../assets/razana.png';
+import steve from '../assets/steve.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -43,6 +47,41 @@ export default function Team() {
     //     3. refresh your page
     //     4. Done!    
     const pictures: Person[] = [
+        {
+            src : nathan,
+            alt : 'nathan',
+            name: 'Nathan Bargers',
+            linkedin : 'https://www.linkedin.com/in/nathan-bargers/',
+            github : 'https://github.com/nbargers'
+        },
+        {
+            src : scott,
+            alt : 'scott',
+            name: 'Scott Campbell',
+            linkedin : 'https://www.linkedin.com/in/thisisscottcampbell/',
+            github : 'https://github.com/thisisscottcampbell'
+        },
+        {
+            src : steve,
+            alt : 'steve',
+            name: 'Steve Hong',
+            linkedin : 'https://www.linkedin.com/in/stevehongpa/',
+            github : 'https://github.com/stevehong423'
+        },
+        {
+            src : jason,
+            alt : 'jason',
+            name: 'Jason Lee',
+            linkedin : 'https://www.linkedin.com/in/jasonjml/',
+            github : 'https://github.com/j4s0n1020'
+        },
+        {
+            src : razana,
+            alt : 'razana',
+            name: 'Razana Nisathar',
+            linkedin : 'http://www.linkedin.com/in/razananisathar',
+            github : 'https://github.com/razananisathar'
+        },
         {
             src : Anthony,
             alt : 'Anthony',
