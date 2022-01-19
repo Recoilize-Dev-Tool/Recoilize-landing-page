@@ -24,6 +24,10 @@ import scott from '../assets/scott.png';
 import nathan from '../assets/nathan.png';
 import razana from '../assets/razana.png';
 import steve from '../assets/steve.png';
+import harvey from '../assets/harvey.png'
+import joey from '../assets/joey.png'
+import leonard from '../assets/leonard.png'
+import victor from '../assets/victor.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -47,6 +51,34 @@ export default function Team() {
     //     3. refresh your page
     //     4. Done!    
     const pictures: Person[] = [
+        {
+            src : harvey,
+            alt : 'harvey',
+            name: 'Harvey Nguyen',
+            linkedin : 'https://www.linkedin.com/in/harveynwynn/',
+            github : 'https://github.com/harveynwynn'
+        },
+        {
+            src : joey,
+            alt : 'joey',
+            name: 'Joey Ma',
+            linkedin : 'https://www.linkedin.com/in/joeyma/',
+            github : 'https://github.com/yoyoyojoe'
+        },
+        {
+            src : leonard,
+            alt : 'leonard',
+            name: 'Leonard Lew',
+            linkedin : 'https://www.linkedin.com/in/leonardlew/',
+            github : 'https://github.com/leolew97'
+        },
+        {
+            src : victor,
+            alt : 'victor',
+            name: 'Victor Wang',
+            linkedin : 'https://www.linkedin.com/in/wangvwr/',
+            github : 'https://github.com/wangvwr'
+        },
         {
             src : nathan,
             alt : 'nathan',
