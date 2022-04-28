@@ -28,10 +28,10 @@ import harvey from '../assets/harvey.png'
 import joey from '../assets/joey.png'
 import leonard from '../assets/leonard.png'
 import victor from '../assets/victor.png'
-import adam from '../assets/adam-circle.png';
-import ryan from '../assets/ryan-circle.png';
-import jordan from '../assets/jordan-circle.png';
-import will from '../assets/will-circle.png';
+import adam from '../assets/Adam-Circle.png';
+import ryan from '../assets/Ryan-Circle.png';
+import jordan from '../assets/Jordan-Circle.png';
+import will from '../assets/Will-Circle.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
