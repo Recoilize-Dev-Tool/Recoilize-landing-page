@@ -1,5 +1,5 @@
 import {atom, selector} from 'recoil';
-import { formatRecoilizeSelectors } from 'recoilize';
+import {formatRecoilizeSelectors} from 'recoilize';
 
 // export const id = atom({
 //   key: 'id',
