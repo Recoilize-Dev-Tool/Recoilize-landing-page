@@ -21,14 +21,14 @@ export const squareStates = Array(boardSize * boardSize).fill(null).map((el, i) 
     key: `square-${i}`,
     default: '-',
   })
-))
+));
 
 export const currentPlayerState = atom({
   key: 'currentPlayerState',
   default: 'X',
 })
 
-export const gameEndSelector = selector({
+const $gameEndSelector = {
   key: 'gameEndSelector',
   get: ({get}) => {
 
@@ -41,10 +41,14 @@ export const gameEndSelector = selector({
     })
 
     return checkWinState(get(currentPlayerState), board);
-
+  },
+  set: ({set}) => {
+    return null;
+    }
     // return something
-  }
-})
+}
+
+export const gameEndSelector = selector($gameEndSelector)
 
 
 
@@ -114,5 +118,6 @@ function checkWinState(currentPlayer, board) {
 }
 
 formatRecoilizeSelectors(
-  $nextPlayerSetSelector
+  $nextPlayerSetSelector,
+  $gameEndSelector
 );
