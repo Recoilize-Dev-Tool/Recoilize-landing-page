@@ -34,7 +34,7 @@
     "react-slideshow-image": "^3.4.2",
     "react-test-renderer": "^16.13.1",
     "recoil": "^0.1.2",
-    "recoilize": "^0.9.10",
+    "recoilize": "^3.1.6",
     "scroll-out": "^2.2.12",
     "typescript": "^3.7.5"
   },
