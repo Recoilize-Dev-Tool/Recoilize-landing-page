@@ -1,4 +1,5 @@
 import {atom, selector} from 'recoil';
+import {formatRecoilizeSelectors} from 'recoilize';
 
 // export const id = atom({
 //   key: 'id',
@@ -44,6 +45,24 @@ export const gameEndSelector = selector({
     // return something
   }
 })
+
+
+
+const $nextPlayerSetSelector = {
+  key: 'nextPlayerSetSelector',
+  get: ({get}) => {
+    // returns the current player
+    const player = get(currentPlayerState);
+    return player;
+  },
+  set: ( {set, get} ) => {
+    const nextPlayer = get(currentPlayerState) === 'X' ? 'O' : 'X';
+    set(currentPlayerState, nextPlayer);
+  }
+}
+export const nextPlayerSetSelector = selector($nextPlayerSetSelector);
+
+
 
 // check win state, call from componentDidUpdate lifecycle
 function checkWinState(currentPlayer, board) {
@@ -93,3 +112,7 @@ function checkWinState(currentPlayer, board) {
 
   return false;
 }
+
+formatRecoilizeSelectors(
+  $nextPlayerSetSelector
+);
