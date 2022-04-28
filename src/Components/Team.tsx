@@ -28,6 +28,10 @@ import harvey from '../assets/harvey.png'
 import joey from '../assets/joey.png'
 import leonard from '../assets/leonard.png'
 import victor from '../assets/victor.png'
+import adam from '../assets/Adam-Circle.png';
+import ryan from '../assets/Ryan-Circle.png';
+import jordan from '../assets/Jordan-Circle.png';
+import will from '../assets/Will-Circle.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -51,6 +55,34 @@ export default function Team() {
     //     3. refresh your page
     //     4. Done!    
     const pictures: Person[] = [
+        {
+            src : adam,
+            alt : 'Adam Allison',
+            name: 'Adam Allison',
+            linkedin : 'https://www.linkedin.com/in/allisonadam81/',
+            github : 'https://github.com/allisonadam81'
+        },
+        {
+            src : jordan,
+            alt : 'Jordan Rice',
+            name: 'Jordan Rice',
+            linkedin : 'https://www.linkedin.com/in/theoriginaljordanrice/',
+            github : 'https://github.com/JordanMRice'
+        },
+        {
+            src : ryan,
+            alt : 'Ryan Wallace',
+            name: 'Ryan Wallace',
+            linkedin : 'https://www.linkedin.com/in/rwallie/',
+            github : 'https://github.com/RWallie'
+        },
+        {
+            src : will,
+            alt : 'William Chu',
+            name: 'William Chu',
+            linkedin : 'https://www.linkedin.com/in/williamchu9/',
+            github : 'https://github.com/wi11chu'
+        },
         {
             src : harvey,
             alt : 'harvey',
