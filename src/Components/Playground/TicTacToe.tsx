@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "core-js/stable";
-import { RecoilRoot, Resetter, useRecoilState, useRecoilValue, useResetRecoilState } from 'recoil';
-import { squareStates, currentPlayerState, gameEndSelector} from '../Store/Atoms';
+import { RecoilRoot, Resetter, useRecoilState, useRecoilValue, useResetRecoilState, useSetRecoilState } from 'recoil';
+import { squareStates, currentPlayerState, gameEndSelector, nextPlayerSetSelector} from '../Store/Atoms';
 
 const boardSize = 3;
 
@@ -91,16 +91,17 @@ const Box = (props) => {
   const [squareState, setSquareState] = useRecoilState(squareStates[(rowIndex * boardSize) + boxIndex]);
   const [currentPlayer, setCurrentPlayerState] = useRecoilState(currentPlayerState);
   const gameEndSelectorState = useRecoilValue(gameEndSelector);
-
+  const setNewPlayer = useSetRecoilState(nextPlayerSetSelector);
   return (
     // <div className={props.isWinBox ? "box box-win" : "box"} onClick={() => props.boardUpdate(props.rowIndex, props.boxIndex)}>
     <div className={props.isWinBox ? "playground-box playground-box-win" : "playground-box"} onClick={() => {
       if (!gameEndSelectorState && squareState === '-') {
         setSquareState(currentPlayer)
-        if (currentPlayer === 'X')
-          setCurrentPlayerState('O')
-        else
-          setCurrentPlayerState('X')
+        // if (currentPlayer === 'X')
+        //   setCurrentPlayerState('O')
+        // else
+        //   setCurrentPlayerState('X')
+        setNewPlayer();
       }
     }}>
       {squareState}
