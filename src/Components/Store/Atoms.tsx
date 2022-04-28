@@ -113,6 +113,6 @@ function checkWinState(currentPlayer, board) {
   return false;
 }
 
-formatRecoilizeSelectors{
+formatRecoilizeSelectors(
   $nextPlayerSetSelector
-}
+);
