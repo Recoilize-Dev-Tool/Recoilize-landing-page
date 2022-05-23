@@ -101,7 +101,7 @@ const Box = (props) => {
         //   setCurrentPlayerState('O')
         // else
         //   setCurrentPlayerState('X')
-        setNewPlayer(1);
+        setNewPlayer(' ');
         // TYPESCRIPT expects an argument for selectors even though one isn't necessarry for this (1 is arbitrary)
       }
     }}>
