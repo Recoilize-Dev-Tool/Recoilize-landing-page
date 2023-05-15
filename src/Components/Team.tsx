@@ -63,7 +63,7 @@ export default function Team() {
             src : alejandro,
             alt : 'Alejandro Florez',
             name: 'Alejandro Florez',
-            linkedin : 'https://www.linkedin.com/in/kaseywolff/',
+            linkedin : 'https://www.linkedin.com/in/florezalejandro/',
             github : 'https://github.com/AlejandroFlorez'
         },
         {
