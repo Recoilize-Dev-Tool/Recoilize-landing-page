@@ -32,6 +32,10 @@ import adam from '../assets/adam.png';
 import ryan from '../assets/ryan.png';
 import jordan from '../assets/jordan.png';
 import will from '../assets/will.png';
+import annelise from '../assets/annelise.png';
+import alejandro from '../assets/alejandro.png';
+import giovanna from '../assets/giovanna.png';
+import kasey from '../assets/kasey.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -55,6 +59,34 @@ export default function Team() {
     //     3. refresh your page
     //     4. Done!    
     const pictures: Person[] = [
+        {
+            src : alejandro,
+            alt : 'Alejandro Florez',
+            name: 'Alejandro Florez',
+            linkedin : 'https://www.linkedin.com/in/florezalejandro/',
+            github : 'https://github.com/AlejandroFlorez'
+        },
+        {
+            src : kasey,
+            alt : 'Kasey Wolff',
+            name: 'Kasey Wolff',
+            linkedin : 'https://www.linkedin.com/in/kaseywolff/',
+            github : 'https://github.com/kaseywolff'
+        },
+        {
+            src : giovanna,
+            alt : 'Giovanna De La Cruz',
+            name: 'Giovanna De La Cruz',
+            linkedin : 'https://www.linkedin.com/in/giovanadelacruz/',
+            github : 'https://github.com/giovanacdlc'
+        },
+        {
+            src : annelise,
+            alt : 'Anne-lise Emig',
+            name: 'Anne-lise Emig',
+            linkedin : 'https://www.linkedin.com/in/anne-lise-emig/',
+            github : 'https://github.com/annelise08'
+        },
         {
             src : adam,
             alt : 'Adam Allison',
